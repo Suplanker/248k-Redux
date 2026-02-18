@@ -626,7 +626,7 @@ function gui.on_selected(e)
                     if player.cursor_stack.name == "el_ki_selection_tool" then
 
                         for i,v in pairs(e["entities"]) do
-                            if (v.name == 'el_ki_beacon_entity') or (v.name == 'fi_ki_beacon_entity') or (v.name == 'fu_ki_beacon_entity') then
+                            if (v.name == 'el_ki_beacon') or (v.name == 'fi_ki_beacon') or (v.name == 'fu_ki_beacon') then
                                 local id = v.unit_number
                                 local oldchannel = storage.ki.beacon[id].channel
 

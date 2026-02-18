@@ -45,9 +45,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_solar_recipe',
+                recipe = 'el_solar',
             },
         },
         unit = {
@@ -67,17 +67,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_burner_recipe',
+                recipe = 'el_burner',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_burner_kerosene_recipe',
+                recipe = 'el_burner_kerosene',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_burner_recipe',
+                recipe = 'fu_burner',
             },
         },
         unit = {
@@ -96,21 +96,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_purifier_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_arc_furnace_recipe',
+                recipe = 'el_arc_furnace',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_arc_pure_iron_recipe',
+                recipe = 'el_arc_pure_iron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_arc_pure_copper_recipe',
+                recipe = 'el_arc_pure_copper',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_arc_pure_aluminum_recipe',
+                recipe = 'el_arc_pure_aluminum',
             },
         },
         unit = {
@@ -129,13 +129,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_burner_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_charger_recipe',
+                recipe = 'el_charger',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_charge_crystal_recipe',
+                recipe = 'el_energy_crystal_charged',
             }
         },
         unit = {
@@ -154,25 +154,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_arc_furnace_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_caster_recipe',
+                recipe = 'el_caster',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_cast_pure_aluminum_recipe',
+                recipe = 'el_cast_pure_aluminum',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_cast_pure_iron_recipe',
+                recipe = 'el_cast_pure_iron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_cast_pure_steel_recipe',
+                recipe = 'el_cast_pure_steel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_cast_pure_copper_recipe',
+                recipe = 'el_cast_pure_copper',
             },
         },
         unit = {
@@ -191,33 +191,33 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_stage_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purifier_recipe',
+                recipe = 'el_purifier',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purify_stone_recipe',
+                recipe = 'el_purify_stone',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purify_iron_recipe',
+                recipe = 'el_purify_iron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purify_copper_recipe',
+                recipe = 'el_purify_copper',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purify_stone_acidic_recipe',
+                recipe = 'el_purify_stone_acidic',
             },
-            --{ 
+            --{
             --    type = 'unlock-recipe',
-            --    recipe = 'el_purify_uranium_acidic_recipe',
+            --    recipe = 'el_purify_uranium_acidic',
             --},
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_dirty_water_vent_2_recipe',
+                recipe = 'el_dirty_water_vent_2',
             }
         },
         unit = {
@@ -236,9 +236,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_purifier_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_purify_stone_2_recipe',
+                recipe = 'el_purify_stone_2',
             }
         },
         unit = {
@@ -257,13 +257,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ALK_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_grower_recipe',
+                recipe = 'el_grower',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_grow_energy_crystal_recipe',
+                recipe = 'el_grow_energy_crystal',
             },
         },
         unit = {
@@ -282,17 +282,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_caster_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ceramic_recipe',
+                recipe = 'el_ceramic',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ceramic_1_recipe',
+                recipe = 'el_ceramic_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ALK_recipe',
+                recipe = 'el_ALK',
             },
         },
         unit = {
@@ -304,7 +304,7 @@ data:extend({
             time = 30,
         },
     },
-    
+
     --water generator
     {
         name = 'el_water_generator_tech',
@@ -313,17 +313,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_water_generator_recipe',
+                recipe = 'el_water_generator',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_pressurizer_recipe',
+                recipe = 'el_pressurizer',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_water_pressure_recipe',
+                recipe = 'el_water_pressure',
             },
         },
         unit = {
@@ -337,7 +337,7 @@ data:extend({
     },
     --aluminum_ore
     --aluminum_item
-    
+
     --lithium_ore
     --lithium_item
     --lithium_basic_battery
@@ -349,25 +349,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_purifier_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_lithium_basic_battery_recipe',
+                recipe = 'el_lithium_basic_battery',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_lithium_battery_recipe',
+                recipe = 'el_lithium_battery',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_lithium_ore_recipe',
+                recipe = 'el_lithium_ore',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_dirty_water_vent_recipe',
+                recipe = 'el_dirty_water_vent',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_dirty_water_landfill_recipe',
+                recipe = 'el_dirty_water_landfill',
             },
         },
         unit = {
@@ -389,21 +389,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ALK_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_kerosene_basic_recipe',
+                recipe = 'el_kerosene_basic',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_desulfurized_kerosene_recipe',
+                recipe = 'el_desulfurized_kerosene',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_usage_acidic_water_recipe',
+                recipe = 'el_usage_acidic_water',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_tank_recipe',
+                recipe = 'el_tank',
             },
         },
         unit = {
@@ -424,25 +424,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_kerosene_tech','el_grower_tech','el_lithium_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_train_fuel_diesel_recipe',
+                recipe = 'el_train_fuel_diesel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_train_equipment_accelerator_recipe',
+                recipe = 'el_train_equipment_accelerator',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_train_equipment_generator_recipe',
+                recipe = 'el_train_equipment_generator',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_diesel_train_recipe',
+                recipe = 'el_diesel_train',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_train_fuel_diesel_energized_recipe',
+                recipe = 'el_train_fuel_diesel_energized',
             },
         },
         unit = {
@@ -462,29 +462,29 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ALK_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_beacon_recipe',
+                recipe = 'el_ki_beacon',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_core_recipe',
+                recipe = 'el_ki_core',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_memory_recipe',
+                recipe = 'el_ki_memory',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_cpu_recipe',
+                recipe = 'el_ki_cpu',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_cpu_fluid_recipe',
+                recipe = 'el_ki_cpu_fluid',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_ki_memory_fluid_recipe',
+                recipe = 'el_ki_memory_fluid',
             }
         },
         unit = {
@@ -503,25 +503,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_tech','fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ki_beacon_recipe',
+                recipe = 'fi_ki_beacon',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ki_core_recipe',
+                recipe = 'fi_ki_core',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ki_circuit_recipe',
+                recipe = 'fi_ki_circuit',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ki_circuit_fluid_recipe',
+                recipe = 'fi_ki_circuit_fluid',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ki_cpu_memory_circuit_recipe',
+                recipe = 'fi_ki_cpu_memory_circuit',
             }
         },
         unit = {
@@ -541,25 +541,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_ki_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ki_beacon_recipe',
+                recipe = 'fu_ki_beacon',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ki_core_recipe',
+                recipe = 'fu_ki_core',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ki_circuit_recipe',
+                recipe = 'fu_ki_circuit',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ki_circuit_fluid_recipe',
+                recipe = 'fu_ki_circuit_fluid',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ki_cpu_memory_circuit_recipe',
+                recipe = 'fu_ki_cpu_memory_circuit',
             }
         },
         unit = {
@@ -570,7 +570,7 @@ data:extend({
                 {'logistic-science-pack',80},
                 {'production-science-pack',80},
                 {'utility-science-pack',80},
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -582,11 +582,11 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_cpu_fluid_recipe_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_memory_fluid_recipe_1',
             }
@@ -594,7 +594,7 @@ data:extend({
         unit = {
             count = 80,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -606,11 +606,11 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_eff_1_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_cpu_fluid_recipe_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_memory_fluid_recipe_2',
             }
@@ -618,7 +618,7 @@ data:extend({
         unit = {
             count = 240,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -630,11 +630,11 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_eff_2_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_cpu_fluid_recipe_3',
             },
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'el_ki_memory_fluid_recipe_3',
             }
@@ -642,7 +642,7 @@ data:extend({
         unit = {
             count = 400,
             ingredients = {
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -654,7 +654,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_ki_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fi_ki_circuit_fluid_recipe_1',
             }
@@ -662,7 +662,7 @@ data:extend({
         unit = {
             count = 40,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -674,7 +674,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_ki_eff_1_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fi_ki_circuit_fluid_recipe_2',
             }
@@ -682,7 +682,7 @@ data:extend({
         unit = {
             count = 120,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -694,7 +694,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_ki_eff_2_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fi_ki_circuit_fluid_recipe_3',
             }
@@ -702,7 +702,7 @@ data:extend({
         unit = {
             count = 200,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -714,7 +714,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_ki_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fu_ki_circuit_fluid_recipe_1',
             }
@@ -722,7 +722,7 @@ data:extend({
         unit = {
             count = 40,
             ingredients = {
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -734,7 +734,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_ki_eff_1_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fu_ki_circuit_fluid_recipe_2',
             }
@@ -742,7 +742,7 @@ data:extend({
         unit = {
             count = 120,
             ingredients = {
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -754,7 +754,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_ki_eff_2_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
                 recipe = 'fu_ki_circuit_fluid_recipe_3',
             }
@@ -762,7 +762,7 @@ data:extend({
         unit = {
             count = 200,
             ingredients = {
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -774,7 +774,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_ki_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.x2_ki_tech_eff'},
             },
@@ -786,11 +786,11 @@ data:extend({
                 {'automation-science-pack',50},
                 {'logistic-science-pack',50},
                 {'production-science-pack',50},
-                {'utility-science-pack',50}, 
-                {'space-science-pack',50}, 
-                {'fu_space_probe_science_item',50},
+                {'utility-science-pack',50},
+                {'space-science-pack',50},
+                {'fu_space_probe_science',50},
                 {'fi_ki_science',1},
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -802,7 +802,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_ki_plus_1_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.x3_ki_tech_eff'},
             },
@@ -814,11 +814,11 @@ data:extend({
                 {'automation-science-pack',50},
                 {'logistic-science-pack',50},
                 {'production-science-pack',50},
-                {'utility-science-pack',50}, 
-                {'space-science-pack',50}, 
-                {'fu_space_probe_science_item',50},
+                {'utility-science-pack',50},
+                {'space-science-pack',50},
+                {'fu_space_probe_science',50},
                 {'fi_ki_science',1},
-                {'fu_ki_science',1} 
+                {'fu_ki_science',1}
             },
             time = 30,
         },
@@ -830,7 +830,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_eff_1_tech','fi_ki_eff_1_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.sup_1_ki_tech_eff'},
             },
@@ -838,7 +838,7 @@ data:extend({
         unit = {
             count = 100,
             ingredients = {
-                {'fi_ki_science',1} 
+                {'fi_ki_science',1}
             },
             time = 30,
         },
@@ -850,7 +850,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_eff_2_tech','fi_ki_eff_2_tech','el_ki_sup_1_tech','fu_ki_eff_1_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.sup_2_ki_tech_eff'},
             },
@@ -871,7 +871,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_eff_3_tech','fi_ki_eff_3_tech','el_ki_sup_2_tech','fu_ki_eff_2_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.sup_3_ki_tech_eff'},
             },
@@ -892,7 +892,7 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_ki_sup_3_tech','fu_ki_eff_3_tech'},
         effects = {
-            { 
+            {
                 type = 'nothing',
                 effect_description = {'description.sup_4_ki_tech_eff'},
             },
@@ -913,9 +913,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'el_charger_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'el_grenade_recipe',
+                recipe = 'el_grenade',
             },
         },
         unit = {
@@ -927,7 +927,7 @@ data:extend({
             time = 30,
         },
     },
-    
+
     --============================================================================================================================================================
     --fi
     {
@@ -979,17 +979,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_glass_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_fiberer_recipe',
+                recipe = 'fi_fiberer',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_natural_fiber_recipe',
+                recipe = 'fi_natural_fiber',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_glass_fiber_recipe',
+                recipe = 'fi_glass_fiber',
             },
         },
         unit = {
@@ -1009,13 +1009,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_glass_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_flourite_recipe',
+                recipe = 'fi_flourite',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_strong_acid_recipe',
+                recipe = 'fi_strong_acid',
             }
         },
         unit = {
@@ -1035,17 +1035,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_crusher_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_arc_glass_recipe',
+                recipe = 'fi_arc_glass',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_cast_glass_recipe',
+                recipe = 'fi_glass',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_glass_recipe',
+                recipe = 'fi_crushed_glass',
             },
         },
         unit = {
@@ -1065,25 +1065,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_flourite_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_purify_stone_recipe',
+                recipe = 'fi_purify_stone',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_purify_uranium_recipe',
+                recipe = 'fi_purify_uranium',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_pure_neodym_recipe',
+                recipe = 'fi_pure_neodym',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_pure_titan_recipe',
+                recipe = 'fi_pure_titan',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_pure_gold_recipe',
+                recipe = 'fi_pure_gold',
             },
         },
         unit = {
@@ -1103,37 +1103,37 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_purifier_tech', 'uranium-processing', 'fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_empty_solution_recipe',
+                recipe = 'fi_empty_solution',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_solution_recipe',
+                recipe = 'fi_solution',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_rich_powder_recipe',
+                recipe = 'fi_rich_powder',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_rich_solution_pack_recipe',
+                recipe = 'fi_rich_solution_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_rich_solution_unpack_recipe',
+                recipe = 'fi_rich_solution_unpack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_dirty_solution_pack_recipe',
+                recipe = 'fi_dirty_solution_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_dirty_solution_unpack_recipe',
+                recipe = 'fi_dirty_solution_unpack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_extract_rich_powder_recipe',
+                recipe = 'fi_extract_rich_powder',
             },
         },
         unit = {
@@ -1153,13 +1153,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_flourite_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_purify_iron_recipe',
+                recipe = 'fi_purify_iron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_purify_copper_recipe',
+                recipe = 'fi_purify_copper',
             }
         },
         unit = {
@@ -1179,29 +1179,29 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_purifier_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_arc_pure_gold_recipe',
+                recipe = 'fi_arc_pure_gold',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_arc_pure_titan_recipe',
+                recipe = 'fi_arc_pure_titan',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_arc_pure_neodym_recipe',
+                recipe = 'fi_arc_pure_neodym',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_cast_neodym_recipe',
+                recipe = 'fi_neodym',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_cast_gold_recipe',
+                recipe = 'fi_gold',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_cast_titan_recipe',
+                recipe = 'fi_titan',
             },
         },
         unit = {
@@ -1222,21 +1222,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_purifier_2_tech', 'fi_advanced_purifier_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_plutonium239_recipe',
+                recipe = 'fi_plutonium239',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_uranium233_recipe',
+                recipe = 'fi_uranium233',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_basic_fuel_recipe',
+                recipe = 'fi_basic_fuel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_basic_thorium_fuel_recipe',
+                recipe = 'fi_basic_thorium_fuel',
             },
         },
         unit = {
@@ -1257,17 +1257,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_fiberer_tech','fi_caster_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_compound_machine_recipe',
+                recipe = 'fi_compound_machine',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_NFK_recipe',
+                recipe = 'fi_NFK',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_GFK_recipe',
+                recipe = 'fi_GFK',
             }
         },
         unit = {
@@ -1287,13 +1287,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crafter_recipe',
+                recipe = 'fi_crafter',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_low-density-structure_recipe',
+                recipe = 'fi_low-density-structure',
             },
         },
         unit = {
@@ -1313,13 +1313,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_refining_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_castor_recipe',
+                recipe = 'fi_castor',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_decay_waste_recipe',
+                recipe = 'fi_decay_waste',
             },
         },
         unit = {
@@ -1340,17 +1340,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_equipment_player_reactor_recipe',
+                recipe = 'fi_equipment_player_reactor',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_equipment_player_shield_recipe',
+                recipe = 'fi_equipment_player_shield',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_train_equipment_generator_recipe',
+                recipe = 'fi_train_equipment_generator',
             },
         },
         unit = {
@@ -1374,33 +1374,33 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_energy_tech','fi_refining_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_solid_reactor_recipe',
+                recipe = 'fi_solid_reactor',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_advanced_fuel_recipe',
+                recipe = 'fi_advanced_fuel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_pure_fuel_recipe',
+                recipe = 'fi_pure_fuel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_advanced_thorium_fuel_recipe',
+                recipe = 'fi_advanced_thorium_fuel',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_advanced_fuel_recycle_recipe',
+                recipe = 'fi_advanced_fuel_recycle',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_advanced_thorium_fuel_recycle_recipe',
+                recipe = 'fi_advanced_thorium_fuel_recycle',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_pure_fuel_recycle_recipe',
+                recipe = 'fi_pure_fuel_recycle',
             },
         },
         unit = {
@@ -1414,7 +1414,7 @@ data:extend({
         },
     },
 
-    --fi crushing 
+    --fi crushing
     {
         name = 'fi_crusher_tech',
         type = 'technology',
@@ -1422,46 +1422,46 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_stage_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crusher_recipe',
+                recipe = 'fi_crusher',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_crystal_recipe',
+                recipe = 'fi_crushed_crystal',
             },
             --[[
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_iron_recipe',
+                recipe = 'fi_crushed_iron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_copper_recipe',
+                recipe = 'fi_crushed_copper',
             },
             ]]
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_lithium_recipe',
+                recipe = 'fi_crushed_lithium',
             },
             --[[
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_aluminum_recipe',
+                recipe = 'fi_crushed_aluminum',
             },
             ]]
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_coal_recipe',
+                recipe = 'fi_crushed_coal',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_stone_recipe',
+                recipe = 'fi_crushed_stone',
             },
             --[[
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crushed_uranium_recipe',
+                recipe = 'fi_crushed_uranium',
             },
             ]]
         },
@@ -1482,9 +1482,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_crusher_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_ceramic_recipe',
+                recipe = 'fi_ceramic',
             }
         },
         unit = {
@@ -1497,7 +1497,7 @@ data:extend({
             time = 30,
         },
     },
-    --fi crystal 
+    --fi crystal
     {
         name = 'fi_crystal_tech',
         type = 'technology',
@@ -1505,21 +1505,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_energy_crystal_recipe',
+                recipe = 'fi_energy_crystal',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crystal_fluid_recipe',
+                recipe = 'fi_crystal_fluid',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_fuel_train_crystal_recipe',
+                recipe = 'fi_fuel_train_crystal',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_charge_crystal_recipe',
+                recipe = 'fi_energy_crystal_charged',
             },
         },
         unit = {
@@ -1540,13 +1540,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_robo_port_recipe',
+                recipe = 'fi_robo_port',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_robo_charger_recipe',
+                recipe = 'fi_robo_charger',
             },
         },
         unit = {
@@ -1567,17 +1567,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_train_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_base_recipe',
+                recipe = 'fi_modules_base',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_core_recipe',
+                recipe = 'fi_modules_core',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_1_recipe',
+                recipe = 'fi_modules_productivity_1',
             },
         },
         unit = {
@@ -1597,9 +1597,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_modules_1_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_2_recipe',
+                recipe = 'fi_modules_productivity_2',
             },
         },
         unit = {
@@ -1619,9 +1619,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_modules_2_tech','fu_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_3_recipe',
+                recipe = 'fi_modules_productivity_3',
             },
         },
         unit = {
@@ -1642,9 +1642,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_modules_3_tech','gr_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_4_recipe',
+                recipe = 'fi_modules_productivity_4',
             },
         },
         unit = {
@@ -1654,9 +1654,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -1668,9 +1668,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_modules_4_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_5_recipe',
+                recipe = 'fi_modules_productivity_5',
             },
         },
         unit = {
@@ -1680,9 +1680,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -1694,9 +1694,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_modules_5_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_modules_productivity_6_recipe',
+                recipe = 'fi_modules_productivity_6',
             },
         },
         unit = {
@@ -1706,9 +1706,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -1720,37 +1720,37 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_crusher_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_recipe',
+                recipe = 'fi_refinery',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_basic_recipe',
+                recipe = 'fi_refinery_basic',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crack_sulfur_gas_recipe',
+                recipe = 'fi_crack_sulfur_gas',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_kerosene_recipe',
+                recipe = 'fi_refinery_kerosene',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_solid_1_recipe',
+                recipe = 'fi_solid_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_solid_2_recipe',
+                recipe = 'fi_solid_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_rocket_fuel_1_recipe',
+                recipe = 'fi_rocket_fuel_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_rocket_fuel_2_recipe',
+                recipe = 'fi_rocket_fuel_2',
             },
         },
         unit = {
@@ -1770,13 +1770,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_refinery_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_sulfur_recipe',
+                recipe = 'fi_refinery_sulfur',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_crack_acid_gas_recipe',
+                recipe = 'fi_crack_acid_gas',
             }
         },
         unit = {
@@ -1796,9 +1796,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_refinery_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_coal_recipe',
+                recipe = 'fi_refinery_coal',
             }
         },
         unit = {
@@ -1818,9 +1818,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_refinery_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_refinery_kerosene_coal_recipe',
+                recipe = 'fi_refinery_kerosene_coal',
             },
         },
         unit = {
@@ -1840,9 +1840,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_crystal_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_grenade_recipe',
+                recipe = 'fi_grenade',
             },
         },
         unit = {
@@ -1862,13 +1862,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_miner_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_upgrade_recipe',
+                recipe = 'fi_upgrade',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fi_miner_upgrade_recipe',
+                recipe = 'fu_miner_2',
             },
         },
         unit = {
@@ -1916,13 +1916,13 @@ data:extend({
             'fu_KFK_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_ingot_recipe',
+                recipe = 'fu_ingot',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_treat_slag_recipe',
+                recipe = 'fu_treat_slag',
             },
         },
         unit = {
@@ -1945,13 +1945,13 @@ data:extend({
             'fu_ingot_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_gold_ingot_recipe',
+                recipe = 'fu_gold_ingot',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_gold_plate_recipe',
+                recipe = 'fu_gold_plate',
             },
         },
         unit = {
@@ -1974,13 +1974,13 @@ data:extend({
             'fu_ingot_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neodym_ingot_recipe',
+                recipe = 'fu_neodym_ingot',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neodym_plate_recipe',
+                recipe = 'fu_neodym_plate',
             },
         },
         unit = {
@@ -2003,13 +2003,13 @@ data:extend({
             'fu_ingot_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_titan_ingot_recipe',
+                recipe = 'fu_titan_ingot',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_titan_plate_recipe',
+                recipe = 'fu_titan_plate',
             },
         },
         unit = {
@@ -2033,13 +2033,13 @@ data:extend({
             'fu_lead_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lead_ingot_recipe',
+                recipe = 'fu_lead_ingot',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lead_plate_recipe',
+                recipe = 'fu_lead_plate',
             },
         },
         unit = {
@@ -2062,15 +2062,15 @@ data:extend({
             'fu_lead_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_laser_recipe',
+                recipe = 'fu_laser',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_laser_card_recipe',
+                recipe = 'fu_laser_card',
             },
-            
+
         },
         unit = {
             count = 800,
@@ -2092,13 +2092,13 @@ data:extend({
             'fu_lead_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_plasma_recipe',
+                recipe = 'fu_plasma',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_plasma_card_recipe',
+                recipe = 'fu_plasma_card',
             },
         },
         unit = {
@@ -2121,17 +2121,17 @@ data:extend({
             'fu_lead_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_magnet_recipe',
+                recipe = 'fu_magnet',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_magnet_1_recipe',
+                recipe = 'fu_magnet_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_magnet_card_recipe',
+                recipe = 'fu_magnet_card',
             },
         },
         unit = {
@@ -2154,13 +2154,13 @@ data:extend({
             'fu_stage_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_KFK_recipe',
+                recipe = 'fu_KFK',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_carbon_fiber_recipe',
+                recipe = 'fu_carbon_fiber',
             },
         },
         unit = {
@@ -2183,13 +2183,13 @@ data:extend({
             'fu_stage_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_TIM_recipe',
+                recipe = 'fu_TIM',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_metal_foam_recipe',
+                recipe = 'fu_metal_foam',
             },
         },
         unit = {
@@ -2213,29 +2213,29 @@ data:extend({
             'fu_magnet_tech','fu_basic_elements_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusor_recipe',
+                recipe = 'fu_fusor',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_1_recipe',
+                recipe = 'fu_fusion_card_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_2_recipe',
+                recipe = 'fu_fusion_card_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_4_recipe',
+                recipe = 'fu_fusion_card_4',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_5_recipe',
+                recipe = 'fu_fusion_card_5',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_7_recipe',
+                recipe = 'fu_fusion_card_7',
             }
         },
         unit = {
@@ -2259,25 +2259,25 @@ data:extend({
             'fu_lead_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_boiler_hydrogen_oxygen_recipe',
+                recipe = 'fu_boiler_hydrogen_oxygen',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_charger_hydrogen_oxygen_recipe',
+                recipe = 'fu_charger_hydrogen_oxygen',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_boiler_recipe',
+                recipe = 'fu_boiler',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lithium_6_recipe',
+                recipe = 'fu_lithium_6',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_hydrogen_recipe',
+                recipe = 'fu_hydrogen',
             }
         },
         unit = {
@@ -2300,13 +2300,13 @@ data:extend({
             'fu_fusor_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_boiler_hydrogen_oxygen_1_recipe',
+                recipe = 'fu_boiler_hydrogen_oxygen_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_charger_hydrogen_oxygen_1_recipe',
+                recipe = 'fu_charger_hydrogen_oxygen_1',
             },
         },
         unit = {
@@ -2330,13 +2330,13 @@ data:extend({
             'fu_hydrogen_1_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_boiler_hydrogen_oxygen_2_recipe',
+                recipe = 'fu_boiler_hydrogen_oxygen_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_charger_hydrogen_oxygen_2_recipe',
+                recipe = 'fu_charger_hydrogen_oxygen_2',
             },
         },
         unit = {
@@ -2347,7 +2347,7 @@ data:extend({
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
                 {'utility-science-pack',1},
-                {'space-science-pack',1} 
+                {'space-science-pack',1}
             },
             time = 45,
         },
@@ -2361,13 +2361,13 @@ data:extend({
             'fu_hydrogen_2_tech',
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_boiler_hydrogen_oxygen_3_recipe',
+                recipe = 'fu_boiler_hydrogen_oxygen_3',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_charger_hydrogen_oxygen_3_recipe',
+                recipe = 'fu_charger_hydrogen_oxygen_3',
             },
         },
         unit = {
@@ -2378,7 +2378,7 @@ data:extend({
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
                 {'utility-science-pack',1},
-                {'space-science-pack',1} 
+                {'space-science-pack',1}
             },
             time = 45,
         },
@@ -2391,9 +2391,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_fusor_tech','fu_crystal_tech','fu_magnet_tech','fu_plasma_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_tech_sign_recipe',
+                recipe = 'fu_tech_sign',
             },
         },
         unit = {
@@ -2414,17 +2414,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_laser_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_laser_crystal_recipe',
+                recipe = 'fu_energy_crystal',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_refined_crystal_recipe',
+                recipe = 'fu_refined_crystal',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_charge_crystal_recipe',
+                recipe = 'fu_energy_charged_crystal',
             },
         },
         unit = {
@@ -2446,45 +2446,45 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_KFK_tech','fu_TIM_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lead_recipe',
+                recipe = 'fu_lead',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_heat_lead_recipe',
+                recipe = 'fu_heat_lead',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lead_crushed_recipe',
+                recipe = 'fu_lead_crushed',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lead_molten_recipe',
+                recipe = 'fu_lead_molten',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_arc_pure_lead_recipe',
+                recipe = 'fu_arc_pure_lead',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_pure_ore_recipe',
+                recipe = 'fu_pure_ore',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_exchanger_item_recipe',
+                recipe = 'fu_exchanger',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_exchanger_1_recipe',
+                recipe = 'fu_exchanger_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_exchanger_2_recipe',
+                recipe = 'fu_exchanger_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_exchanger_3_recipe',
+                recipe = 'fu_exchanger_3',
             },
         },
         unit = {
@@ -2506,21 +2506,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_stelar_reactor_recipe',
+                recipe = 'fu_stelar_reactor',
             },
-            --{ 
+            --{
             --    type = 'unlock-recipe',
-            --    recipe = 'fu_stelerator_1_recipe',
+            --    recipe = 'fu_stelerator_1',
             --},
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_stelerator_2_recipe',
+                recipe = 'fu_stelerator_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_stelerator_3_recipe',
+                recipe = 'fu_stelerator_3',
             }
         },
         unit = {
@@ -2541,17 +2541,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_turbine_recipe',
+                recipe = 'fu_turbine',
             },
-            --{ 
+            --{
             --    type = 'unlock-recipe',
-            --    recipe = 'fu_stelerator_1_recipe',
+            --    recipe = 'fu_stelerator_1',
             --},
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_exchanger_4_recipe',
+                recipe = 'fu_exchanger_4',
             },
         },
         unit = {
@@ -2573,13 +2573,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_robo_construction_recipe',
+                recipe = 'fu_robo_construction',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_robo_logistic_recipe',
+                recipe = 'fu_robo_logistic',
             },
         },
         unit = {
@@ -2601,17 +2601,17 @@ data:extend({
     icon_size = 128,
     prerequisites = {'fu_energy_tech'},
     effects = {
-        { 
+        {
             type = 'unlock-recipe',
-            recipe = 'fu_tokamak_reactor_recipe',
+            recipe = 'fu_tokamak_reactor',
         },
-        { 
+        {
             type = 'unlock-recipe',
-            recipe = 'fu_tokamak_1_recipe',
+            recipe = 'fu_tokamak_1',
         },
-        { 
+        {
             type = 'unlock-recipe',
-            recipe = 'fu_tokamak_2_recipe',
+            recipe = 'fu_tokamak_2',
         }
     },
         unit = {
@@ -2634,49 +2634,49 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_fusor_tech','fu_basic_elements_tech','fu_reactor_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_activator_recipe',
+                recipe = 'fu_activator',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_empty_container_recipe',
+                recipe = 'fu_empty_container',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_stelerator_2_neutron_recipe',
+                recipe = 'fu_stelerator_2_neutron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_stelerator_3_neutron_recipe',
+                recipe = 'fu_stelerator_3_neutron',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neutron_fluid_container_recipe',
+                recipe = 'fu_neutron_fluid_container',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neutron_fluid_235_recipe',
+                recipe = 'fu_neutron_fluid_235',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neutron_fluid_233_recipe',
+                recipe = 'fu_neutron_fluid_233',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neutron_fluid_232_recipe',
+                recipe = 'fu_neutron_fluid_232',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_neutron_fluid_MOX_recipe',
+                recipe = 'fu_neutron_fluid_MOX',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_activator_1_recipe',
+                recipe = 'fu_activator_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_activator_2_recipe',
+                recipe = 'fu_activator_2',
             }
         },
         unit = {
@@ -2698,25 +2698,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_reactor_tech','fu_tokamak_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_recipe',
+                recipe = 'fu_star_engine_cooler',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_up_recipe',
+                recipe = 'fu_star_engine_cooler_up',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_recipe',
+                recipe = 'fu_star_engine_core',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_heater_recipe',
+                recipe = 'fu_star_engine_heater',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_heater_left_recipe',
+                recipe = 'fu_star_engine_heater_left',
             }
         },
         unit = {
@@ -2727,7 +2727,7 @@ data:extend({
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
                 {'utility-science-pack',1},
-                {'space-science-pack',1} 
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2739,21 +2739,21 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_1_recipe',
+                recipe = 'fu_star_engine_cooler_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_1_recipe',
+                recipe = 'fu_star_engine_core_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_heater_1_recipe',
+                recipe = 'fu_star_engine_heater_1',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_1_recipe',
+                recipe = 'fu_star_engine_caster_1',
             },
         },
         unit = {
@@ -2763,8 +2763,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2776,17 +2776,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_iron_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_2_recipe',
+                recipe = 'fu_star_engine_cooler_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_2_recipe',
+                recipe = 'fu_star_engine_core_2',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_2_recipe',
+                recipe = 'fu_star_engine_caster_2',
             },
         },
         unit = {
@@ -2796,8 +2796,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2809,17 +2809,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_copper_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_3_recipe',
+                recipe = 'fu_star_engine_cooler_3',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_3_recipe',
+                recipe = 'fu_star_engine_core_3',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_3_recipe',
+                recipe = 'fu_star_engine_caster_3',
             },
         },
         unit = {
@@ -2829,8 +2829,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2842,17 +2842,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_sulfur_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_4_recipe',
+                recipe = 'fu_star_engine_cooler_4',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_4_recipe',
+                recipe = 'fu_star_engine_core_4',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_4_recipe',
+                recipe = 'fu_star_engine_caster_4',
             },
         },
         unit = {
@@ -2862,8 +2862,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2875,17 +2875,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_lithium_7_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_6_recipe',
+                recipe = 'fu_star_engine_cooler_6',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_6_recipe',
+                recipe = 'fu_star_engine_core_6',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_6_recipe',
+                recipe = 'fu_star_engine_caster_6',
             },
         },
         unit = {
@@ -2895,8 +2895,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2908,17 +2908,17 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_star_engine_uranium_238_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_cooler_5_recipe',
+                recipe = 'fu_star_engine_cooler_5',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_core_5_recipe',
+                recipe = 'fu_star_engine_core_5',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_star_engine_caster_5_recipe',
+                recipe = 'fu_star_engine_caster_5',
             },
         },
         unit = {
@@ -2928,8 +2928,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2942,9 +2942,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_energy_tech','fu_robo_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_sputnik_recipe',
+                recipe = 'fu_space_probe_sputnik',
             },
         },
         unit = {
@@ -2954,8 +2954,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2967,13 +2967,13 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_space_probe_1_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_probe_recipe',
+                recipe = 'fu_space_probe_probe',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_data_card_2_recipe',
+                recipe = 'fu_space_probe_data_card_2',
             },
         },
         unit = {
@@ -2983,8 +2983,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -2996,19 +2996,19 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_space_probe_2_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_deep_probe_recipe',
+                recipe = 'fu_space_probe_deep_probe',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_ore_recipe',
+                recipe = 'fu_space_probe_ore',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_space_probe_science_recipe',
+                recipe = 'fu_space_probe_science',
             },
-            --{ 
+            --{
             --    type = 'unlock-recipe',
             --    recipe = 'fu_space_probe_science_recipe_1',
             --},
@@ -3020,8 +3020,8 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1} 
+                {'utility-science-pack',1},
+                {'space-science-pack',1}
             },
             time = 100,
         },
@@ -3033,25 +3033,25 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fi_materials_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_miner_recipe',
+                recipe = 'fu_miner',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_mining_recipe',
+                recipe = 'fu_mining',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_crush_stone_recipe',
+                recipe = 'fu_crush_stone',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_extract_stone_recipe',
+                recipe = 'fu_extract_stone',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_drill_recipe',
+                recipe = 'fu_miner_fuel',
             },
         },
         unit = {
@@ -3071,9 +3071,9 @@ data:extend({
         icon_size = 128,
         prerequisites = {'fu_crystal_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_grenade_recipe',
+                recipe = 'fu_grenade',
             },
         },
         unit = {
@@ -3095,9 +3095,9 @@ data:extend({
         enabled = false,
         prerequisites = {'fu_energy_tech'},
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_lab_recipe',
+                recipe = 'fu_lab',
             },
         },
         unit = {
@@ -3121,13 +3121,13 @@ data:extend({
             'fu_magnet_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_upgrade_recipe',
+                recipe = 'fu_upgrade',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'fu_miner_upgrade_recipe',
+                recipe = 'fu_miner_3',
             },
         },
         unit = {
@@ -3162,9 +3162,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3178,17 +3178,17 @@ data:extend({
             'gr_magnet_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_materials_fusion_cell_recipe',
+                recipe = 'gr_fusion_cell',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_materials_charge_recipe',
+                recipe = 'gr_charge',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_materials_charge_remote_recipe',
+                recipe = 'gr_charge_remote',
             },
         },
         unit = {
@@ -3198,9 +3198,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3214,13 +3214,13 @@ data:extend({
             'gr_stage_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_materials_stack_down_item_recipe',
+                recipe = 'gr_stack_down',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_materials_stack_up_item_recipe',
+                recipe = 'gr_stack_up',
             },
         },
         unit = {
@@ -3230,9 +3230,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3246,9 +3246,9 @@ data:extend({
             'gr_compact_fusion_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_crafter_recipe',
+                recipe = 'gr_crafter',
             },
         },
         unit = {
@@ -3258,9 +3258,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3275,9 +3275,9 @@ data:extend({
             'gr_compact_fusion_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_wheel_recipe',
+                recipe = 'gr_wheel',
             },
         },
         unit = {
@@ -3287,9 +3287,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3303,9 +3303,9 @@ data:extend({
             'gr_star_engine_1_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_steel_recipe',
+                recipe = 'gr_steel',
             },
         },
         unit = {
@@ -3315,14 +3315,14 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
     },
-    --gr trains 
+    --gr trains
     {
         name = 'gr_train_tech',
         type = 'technology',
@@ -3332,17 +3332,17 @@ data:extend({
             'fu_magnet_tech','fu_space_probe_3_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_train_pre_recipe',
+                recipe = 'gr_magnet_train_pre',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_wagon_pre_recipe',
+                recipe = 'gr_magnet_wagon_pre',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_tanker_pre_recipe',
+                recipe = 'gr_magnet_tanker_pre',
             },
         },
         unit = {
@@ -3352,9 +3352,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3368,17 +3368,17 @@ data:extend({
             'gr_train_tech','gr_compact_fusion_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_train_recipe',
+                recipe = 'gr_magnet_train',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_wagon_recipe',
+                recipe = 'gr_magnet_wagon',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_tanker_recipe',
+                recipe = 'gr_magnet_tanker',
             },
         },
         unit = {
@@ -3388,9 +3388,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3405,13 +3405,13 @@ data:extend({
             'gr_compact_fusion_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_kovarex_recipe',
+                recipe = 'gr_kovarex',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_kovarex_2_recipe',
+                recipe = 'gr_kovarex_2',
             }
         },
         unit = {
@@ -3421,9 +3421,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3437,17 +3437,17 @@ data:extend({
             'gr_magnet_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_charger_recipe',
+                recipe = 'gr_charger',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_stabilizer_recipe',
+                recipe = 'gr_stabilizer',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_crushed_exotic_recipe',
+                recipe = 'gr_crushed_exotic',
             }
         },
         unit = {
@@ -3457,9 +3457,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3473,9 +3473,9 @@ data:extend({
             'gr_charger_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_black_hole_recipe',
+                recipe = 'gr_black_hole',
             }
         },
         unit = {
@@ -3485,9 +3485,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3501,9 +3501,9 @@ data:extend({
             'gr_charger_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_white_hole_recipe',
+                recipe = 'gr_white_hole',
             }
         },
         unit = {
@@ -3513,9 +3513,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3530,13 +3530,13 @@ data:extend({
             'gr_black_hole_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_data_recipe',
+                recipe = 'gr_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_stacked_data_recipe',
+                recipe = 'gr_stacked_data',
             }
         },
         unit = {
@@ -3546,9 +3546,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3562,25 +3562,25 @@ data:extend({
             'gr_lab_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_red_data_recipe',
+                recipe = 'gr_red_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_red_recipe',
+                recipe = 'gr_red',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3594,25 +3594,25 @@ data:extend({
             'gr_red_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_green_data_recipe',
+                recipe = 'gr_green_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_green_recipe',
+                recipe = 'gr_green',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3626,25 +3626,25 @@ data:extend({
             'gr_green_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_blue_data_recipe',
+                recipe = 'gr_blue_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_blue_recipe',
+                recipe = 'gr_blue',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3658,25 +3658,25 @@ data:extend({
             'gr_blue_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_purple_data_recipe',
+                recipe = 'gr_purple_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_purple_recipe',
+                recipe = 'gr_purple',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3690,25 +3690,25 @@ data:extend({
             'gr_purple_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_yellow_data_recipe',
+                recipe = 'gr_yellow_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_yellow_recipe',
+                recipe = 'gr_yellow',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3722,25 +3722,25 @@ data:extend({
             'gr_yellow_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_grey_data_recipe',
+                recipe = 'gr_grey_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_grey_recipe',
+                recipe = 'gr_grey',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3754,25 +3754,25 @@ data:extend({
             'gr_grey_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_white_data_recipe',
+                recipe = 'gr_white_data',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_white_recipe',
+                recipe = 'gr_white',
             },
         },
         unit = {
             count = 10000,
             ingredients = {
-                {'gr_materials_red_pack_item',1},
-                {'gr_materials_green_pack_item',1},
-                {'gr_materials_blue_pack_item',1},
-                {'gr_materials_purple_pack_item',1},
-                {'gr_materials_yellow_pack_item',1}, 
-                {'gr_materials_grey_pack_item',1}, 
-                {'gr_materials_white_pack_item',1}
+                {'gr_red_pack',1},
+                {'gr_green_pack',1},
+                {'gr_blue_pack',1},
+                {'gr_purple_pack',1},
+                {'gr_yellow_pack',1},
+                {'gr_grey_pack',1},
+                {'gr_white_pack',1}
             },
             time = 100,
         },
@@ -3786,37 +3786,37 @@ data:extend({
             'gr_data_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_lab_recipe',
+                recipe = 'gr_lab',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_red_pack_recipe',
+                recipe = 'gr_red_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_green_pack_recipe',
+                recipe = 'gr_green_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_blue_pack_recipe',
+                recipe = 'gr_blue_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_purple_pack_recipe',
+                recipe = 'gr_purple_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_yellow_pack_recipe',
+                recipe = 'gr_yellow_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_grey_pack_recipe',
+                recipe = 'gr_grey_pack',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_white_pack_recipe',
+                recipe = 'gr_white_pack',
             },
         },
         unit = {
@@ -3826,9 +3826,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3842,17 +3842,17 @@ data:extend({
             'gr_stage_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_circuit_recipe',
+                recipe = 'gr_circuit',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_gold_wire_recipe',
+                recipe = 'gr_gold_wire',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_pcb_recipe',
+                recipe = 'gr_pcb',
             },
         },
         unit = {
@@ -3862,9 +3862,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3878,9 +3878,9 @@ data:extend({
             'gr_plasma_cube_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_magnet_recipe',
+                recipe = 'gr_magnet',
             },
         },
         unit = {
@@ -3890,9 +3890,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3906,9 +3906,9 @@ data:extend({
             'gr_circuit_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_plasma_cube_recipe',
+                recipe = 'gr_plasma_cube',
             },
         },
         unit = {
@@ -3918,9 +3918,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },
@@ -3935,13 +3935,13 @@ data:extend({
             'gr_plasma_cube_tech'
         },
         effects = {
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_upgrade_recipe',
+                recipe = 'gr_upgrade',
             },
-            { 
+            {
                 type = 'unlock-recipe',
-                recipe = 'gr_miner_upgrade_recipe',
+                recipe = 'fu_miner_4',
             },
         },
         unit = {
@@ -3951,9 +3951,9 @@ data:extend({
                 {'automation-science-pack',1},
                 {'logistic-science-pack',1},
                 {'production-science-pack',1},
-                {'utility-science-pack',1}, 
-                {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'utility-science-pack',1},
+                {'space-science-pack',1},
+                {'fu_space_probe_science',1}
             },
             time = 30,
         },

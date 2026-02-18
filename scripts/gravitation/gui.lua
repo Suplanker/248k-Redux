@@ -21,8 +21,8 @@ function gr_gui.add_black_hole_gui(e,update)
             active = storage.black_hole.base[id].active
             local entity = storage.black_hole.base[id].entity
             local inv = entity.get_inventory(defines.inventory.chest)
-            total = inv.get_item_count() - inv.get_item_count("gr_materials_stabilizer_item")
-            stabilizer = inv.get_item_count("gr_materials_stabilizer_item")
+            total = inv.get_item_count() - inv.get_item_count("gr_stabilizer")
+            stabilizer = inv.get_item_count("gr_stabilizer")
 
             if storage.black_hole.base[id].energy then
                 local energy = storage.black_hole.base[id].energy
@@ -39,8 +39,8 @@ function gr_gui.add_black_hole_gui(e,update)
             active = storage.black_hole.base[id].active
             local entity = storage.black_hole.base[id].entity
             local inv = entity.get_inventory(defines.inventory.chest)
-            total = inv.get_item_count() - inv.get_item_count("gr_materials_stabilizer_item")
-            stabilizer = inv.get_item_count("gr_materials_stabilizer_item")
+            total = inv.get_item_count() - inv.get_item_count("gr_stabilizer")
+            stabilizer = inv.get_item_count("gr_stabilizer")
 
             if storage.black_hole.base[id].energy then
                 local energy = storage.black_hole.base[id].energy

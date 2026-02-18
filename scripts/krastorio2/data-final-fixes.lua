@@ -11,7 +11,7 @@ data:extend({
         always_show_made_in = true,
         ingredients =
         {
-            {type="item",name = "fi_crushed_lithium_item", amount= 10},
+            {type="item",name = "fi_crushed_lithium", amount= 10},
             {type="fluid", name="kr-mineral-water", amount=100}
         },
         results = {
@@ -20,19 +20,19 @@ data:extend({
         category = "chemistry"
     },
     {
-        name = 'fu_charger_hydrogen_oxygen_recipe',
+        name = 'fu_charger_hydrogen_oxygen',
         type = 'recipe',
         category = 'el_charger_category',
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
-            {type="item", name="fi_materials_gold", amount=1},
+            {type="item", name="fi_gold", amount=1},
             {type="fluid", name="water", amount=150},
         },
         results = {
             {type="fluid", name="kr-hydrogen", amount=100},
             {type="fluid", name="kr-oxygen", amount=50},
-            {type="item", name="fi_materials_gold", amount=1, probability=0.25},
+            {type="item", name="fi_gold", amount=1, probability=0.25},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -40,19 +40,19 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_charger_hydrogen_oxygen_1_recipe',
+        name = 'fu_charger_hydrogen_oxygen_1',
         type = 'recipe',
         category = 'el_charger_category',
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
-            {type="item", name="fi_materials_gold", amount=1},
+            {type="item", name="fi_gold", amount=1},
             {type="fluid", name="water", amount=300},
         },
         results = {
             {type="fluid", name="kr-hydrogen", amount=200},
             {type="fluid", name="kr-oxygen", amount=100},
-            {type="item", name="fi_materials_gold", amount=1, probability=0.55},
+            {type="item", name="fi_gold", amount=1, probability=0.55},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -60,19 +60,19 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_charger_hydrogen_oxygen_2_recipe',
+        name = 'fu_charger_hydrogen_oxygen_2',
         type = 'recipe',
         category = 'el_charger_category',
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
-            {type="item", name="fi_materials_gold", amount=1},
+            {type="item", name="fi_gold", amount=1},
             {type="fluid", name="water", amount=650},
         },
         results = {
             {type="fluid", name="kr-hydrogen", amount=500},
             {type="fluid", name="kr-oxygen", amount=150},
-            {type="item", name="fi_materials_gold", amount=1, probability=0.85},
+            {type="item", name="fi_gold", amount=1, probability=0.85},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -80,7 +80,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_charger_hydrogen_oxygen_3_recipe',
+        name = 'fu_charger_hydrogen_oxygen_3',
         type = 'recipe',
         category = 'el_charger_category',
         main_product = 'kr-hydrogen',
@@ -97,7 +97,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_boiler_hydrogen_oxygen_3_recipe',
+        name = 'fu_boiler_hydrogen_oxygen_3',
         type = 'recipe',
         category = 'fu_boiler_crafting_category',
         main_product = 'kr-hydrogen',
@@ -114,7 +114,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_boiler_hydrogen_oxygen_recipe',
+        name = 'fu_boiler_hydrogen_oxygen',
         type = 'recipe',
         category = 'fu_boiler_crafting_category',
         main_product = 'kr-hydrogen',
@@ -132,7 +132,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_boiler_hydrogen_oxygen_1_recipe',
+        name = 'fu_boiler_hydrogen_oxygen_1',
         type = 'recipe',
         category = 'fu_boiler_crafting_category',
         main_product = 'kr-hydrogen',
@@ -150,7 +150,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_boiler_hydrogen_oxygen_2_recipe',
+        name = 'fu_boiler_hydrogen_oxygen_2',
         type = 'recipe',
         category = 'fu_boiler_crafting_category',
         main_product = 'kr-hydrogen',
@@ -168,7 +168,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_hydrogen_recipe',
+        name = 'fu_hydrogen',
         type = 'recipe',
         category = 'oil-processing',
         main_product = 'fu_protium',
@@ -185,7 +185,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_exchanger_1_recipe',
+        name = 'fu_exchanger_1',
         type = 'recipe',
         category = 'fu_exchanger_crafting_category',
         main_product = 'steam',
@@ -204,7 +204,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_exchanger_2_recipe',
+        name = 'fu_exchanger_2',
         type = 'recipe',
         category = 'fu_exchanger_crafting_category',
         main_product = 'steam',
@@ -267,7 +267,7 @@ data:extend({
         always_show_made_in = true,
     },
     {
-        name = 'fu_ki_core_recipe',
+        name = 'fu_ki_core',
         type = 'recipe',
         enabled = false,
         category = 'crafting',
@@ -277,20 +277,20 @@ data:extend({
             {type="item", name="electronic-circuit", amount=100},
             {type="item", name="advanced-circuit", amount=100},
             {type="item", name="processing-unit", amount=100},
-            {type="item", name="fu_space_probe_down_matter_item", amount=10},
-            {type="item", name="fu_space_probe_up_matter_item", amount=10},
-            {type="item", name="fu_exchanger_item", amount=10},
-            {type="item", name="fu_tech_sign_item", amount=100},
-            {type="item", name="fu_boiler_item", amount=10},
-            --{type="item", name="fu_burner_item", amount=10},
+            {type="item", name="fu_space_probe_down_matter", amount=10},
+            {type="item", name="fu_space_probe_up_matter", amount=10},
+            {type="item", name="fu_exchanger", amount=10},
+            {type="item", name="fu_tech_sign", amount=100},
+            {type="item", name="fu_boiler", amount=10},
+            --{type="item", name="fu_burner", amount=10},
         },
         results = {
-            {type="item", name="fu_ki_core_item", amount=1},
+            {type="item", name="fu_ki_core", amount=1},
         },
         energy_required = 60,
     },
     {
-        name = 'el_water_pressure_recipe',
+        name = 'el_water_pressure',
         type = 'recipe',
         enabled = false,
         category = 'el_special_fluid',
@@ -308,7 +308,7 @@ data:extend({
         energy_required = 2,
     },
     {
-        name = 'el_ceramic_recipe',
+        name = 'el_ceramic',
         type = 'recipe',
         enabled = false,
         category = 'crafting-with-fluid',
@@ -317,32 +317,32 @@ data:extend({
             {type="item", name="stone", amount=2},
         },
         results = {
-            {type="item", name="el_materials_ceramic", amount=1},
+            {type="item", name="el_ceramic", amount=1},
         },
         energy_required = 1,
         order = 'a-b',
     },
 })
 
-data.raw.recipe["fi_refinery_basic_recipe"].ingredients = { 
+data.raw.recipe["fi_refinery_basic"].ingredients = { 
     {type="fluid", name="crude-oil", amount=180}, 
     {type="fluid", name="steam", amount=15}
 }
-data.raw.recipe["fi_refinery_coal_recipe"].ingredients = { 
+data.raw.recipe["fi_refinery_coal"].ingredients = { 
     {type="fluid", name="crude-oil", amount=180},
     {type="fluid", name="steam", amount=15},
-    {type="item", name="fi_crushed_coal_item", amount=10}
+    {type="item", name="fi_crushed_coal", amount=10}
 }
-data.raw.recipe["fi_refinery_sulfur_recipe"].ingredients = {
+data.raw.recipe["fi_refinery_sulfur"].ingredients = {
     {type="fluid", name="crude-oil", amount=180},
     {type="fluid", name="steam", amount=15},
     {type="item", name="sulfur", amount=3}
 }
-data.raw.recipe["fi_crack_sulfur_gas_recipe"].ingredients = {
+data.raw.recipe["fi_crack_sulfur_gas"].ingredients = {
     {type="fluid", name="fi_acid_gas", amount=10},
     {type="fluid", name="steam", amount=2}
 }
-data.raw.recipe["fi_crack_acid_gas_recipe"].ingredients = {
+data.raw.recipe["fi_crack_acid_gas"].ingredients = {
     {type="fluid", name="fi_acid_gas", amount=20},
     {type="fluid", name="steam", amount=2}
 }
@@ -356,20 +356,20 @@ if (not mods["RealisticFusionPower"]) then
 end
 
 --[[
-table.insert(data.raw.technology["gr_stage_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_train_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_train_plus_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_star_engine_1_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_star_engine_2_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_crafter_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_materials_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_compact_fusion_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_charger_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_kovarex_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["gr_black_hole_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["fi_modules_4_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["fi_modules_5_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
-table.insert(data.raw.technology["fi_modules_6_tech"].unit.ingredients, {"fu_space_probe_science_item", 1})
+table.insert(data.raw.technology["gr_stage_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_train_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_train_plus_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_star_engine_1_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_star_engine_2_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_crafter_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_materials_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_compact_fusion_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_charger_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_kovarex_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["gr_black_hole_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["fi_modules_4_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["fi_modules_5_tech"].unit.ingredients, {"fu_space_probe_science", 1})
+table.insert(data.raw.technology["fi_modules_6_tech"].unit.ingredients, {"fu_space_probe_science", 1})
 
 table.insert(data.raw.technology["fu_ki_plus_1_tech"].unit.ingredients, {"fi_ki_science", 1})
 table.insert(data.raw.technology["fu_ki_plus_1_tech"].unit.ingredients, {"fu_ki_science", 1})
@@ -377,21 +377,21 @@ table.insert(data.raw.technology["fu_ki_plus_2_tech"].unit.ingredients, {"fi_ki_
 table.insert(data.raw.technology["fu_ki_plus_2_tech"].unit.ingredients, {"fu_ki_science", 1})
 --]]
 
-table.insert(data.raw["generator-equipment"]["fi_train_equipment_generator_item"].categories,"kr-vehicle")
+table.insert(data.raw["generator-equipment"]["fi_train_equipment_generator"].categories,"kr-vehicle")
 
 if (config("krastorio_endgame")) then
-    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_materials_stack_down_item", amount=40}) 
-    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_materials_stack_up_item", amount=40})
-    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_materials_white_item", amount=1}) 
-    table.insert(data.raw.recipe["kr-antimatter-reactor"].ingredients ,{type="item", name="gr_materials_stack_down_item", amount=5}) 
-    table.insert(data.raw.recipe["kr-antimatter-reactor"].ingredients ,{type="item", name="gr_materials_stack_up_item", amount=5}) 
+    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_stack_down", amount=40}) 
+    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_stack_up", amount=40})
+    table.insert(data.raw.recipe["kr-intergalactic-transceiver"].ingredients ,{type="item", name="gr_white", amount=1}) 
+    table.insert(data.raw.recipe["kr-antimatter-reactor"].ingredients ,{type="item", name="gr_stack_down", amount=5}) 
+    table.insert(data.raw.recipe["kr-antimatter-reactor"].ingredients ,{type="item", name="gr_stack_up", amount=5}) 
 end
-table.insert(data.raw.lab['kr-singularity-lab'].inputs, 'fu_space_probe_science_item')
+table.insert(data.raw.lab['kr-singularity-lab'].inputs, 'fu_space_probe_science')
 table.insert(data.raw.lab['kr-singularity-lab'].inputs, 'fi_ki_science')
 table.insert(data.raw.lab['kr-singularity-lab'].inputs, 'fu_ki_science')
 
-table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fu_space_probe_science_item')
+table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fu_space_probe_science')
 table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fi_ki_science')
 table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fu_ki_science')
 
-data.raw.tool["fu_space_probe_science_item"].icon = "__248k-Redux-graphics__/ressources/fusion/fu_space_probe/fu_space_probe_science_item_krastorio.png"
+data.raw.tool["fu_space_probe_science"].icon = "__248k-Redux-graphics__/ressources/fusion/fu_space_probe/fu_space_probe_science_item_krastorio.png"

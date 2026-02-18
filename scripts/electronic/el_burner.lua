@@ -1,7 +1,7 @@
 function make_burner_recipe(item)
     if string.find(item, "dummy") then return end -- fix for ElectricTrains crash
     local blank = {
-        name = 'fu_burn_oxygen_recipe',
+        name = 'fu_burn_oxygen',
         type = 'recipe',
         category = 'fu_burner_category',
         icon = '__248k-Redux-graphics__/ressources/elements/fu_oxygen.png',
@@ -31,7 +31,7 @@ end
 function burner_recipe_generator()
     local items = data.raw.item
     for i,v in pairs(items) do
-        if not (data.raw.item[i].name == "fi_materials_waste") then
+        if not (data.raw.item[i].name == "fi_waste") then
             make_burner_recipe(data.raw.item[i].name)
         end
     end

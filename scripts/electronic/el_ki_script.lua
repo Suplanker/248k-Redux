@@ -78,47 +78,47 @@ end
 
 function el_ki_on_built(e)
     if e['created_entity'] then
-        if e['created_entity'].name == 'el_ki_core_entity' then
+        if e['created_entity'].name == 'el_ki_core' then
             make_ki_core(e['created_entity'])
         end
-        if e['created_entity'].name == 'el_ki_beacon_entity' then
+        if e['created_entity'].name == 'el_ki_beacon' then
             make_ki_beacon(e['created_entity'])
         end
 
-        if e['created_entity'].name == 'fi_ki_core_entity' then
+        if e['created_entity'].name == 'fi_ki_core' then
             make_ki_buffer1(e['created_entity'])
         end
-        if e['created_entity'].name == 'fi_ki_beacon_entity' then
+        if e['created_entity'].name == 'fi_ki_beacon' then
             make_ki_beacon(e['created_entity'])
         end
         
-        if e['created_entity'].name == 'fu_ki_core_entity' then
+        if e['created_entity'].name == 'fu_ki_core' then
             make_ki_buffer2(e['created_entity'])
         end
-        if e['created_entity'].name == 'fu_ki_beacon_entity' then
+        if e['created_entity'].name == 'fu_ki_beacon' then
             make_ki_beacon(e['created_entity'])
         end
     end
     
     if e['entity'] then
-        if e['entity'].name == 'el_ki_core_entity' then
+        if e['entity'].name == 'el_ki_core' then
             make_ki_core(e['entity'])
         end
-        if e['entity'].name == 'el_ki_beacon_entity' then
+        if e['entity'].name == 'el_ki_beacon' then
             make_ki_beacon(e['entity'])
         end
         
-        if e['entity'].name == 'fi_ki_core_entity' then
+        if e['entity'].name == 'fi_ki_core' then
             make_ki_buffer1(e['entity'])
         end
-        if e['entity'].name == 'fi_ki_beacon_entity' then
+        if e['entity'].name == 'fi_ki_beacon' then
             make_ki_beacon(e['entity'])
         end
         
-        if e['entity'].name == 'fu_ki_core_entity' then
+        if e['entity'].name == 'fu_ki_core' then
             make_ki_buffer2(e['entity'])
         end
-        if e['entity'].name == 'fu_ki_beacon_entity' then
+        if e['entity'].name == 'fu_ki_beacon' then
             make_ki_beacon(e['entity'])
         end
     end    
@@ -142,7 +142,7 @@ end
 
 function el_ki_on_remove(e)
     if e["entity"] then
-        if e["entity"].name == "el_ki_core_entity" then
+        if e["entity"].name == "el_ki_core" then
             if e["player_index"] then
                 destroy_ki_core(e["entity"],e["player_index"],nil)
             elseif e["robot"] then
@@ -152,7 +152,7 @@ function el_ki_on_remove(e)
             end
         end
 
-        if e["entity"].name == "fi_ki_core_entity" then
+        if e["entity"].name == "fi_ki_core" then
             if e["player_index"] then
                 destroy_fi_core(e["entity"],e["player_index"],nil)
             elseif e["robot"] then
@@ -162,7 +162,7 @@ function el_ki_on_remove(e)
             end
         end
 
-        if e["entity"].name == "fu_ki_core_entity" then
+        if e["entity"].name == "fu_ki_core" then
             if e["player_index"] then
                 destroy_fu_core(e["entity"],e["player_index"],nil)
             elseif e["robot"] then
@@ -172,7 +172,7 @@ function el_ki_on_remove(e)
             end
         end
 
-        if (e["entity"].name == "el_ki_beacon_entity") or (e["entity"].name == "fi_ki_beacon_entity") or (e["entity"].name == "fu_ki_beacon_entity") then
+        if (e["entity"].name == "el_ki_beacon") or (e["entity"].name == "fi_ki_beacon") or (e["entity"].name == "fu_ki_beacon") then
             destroy_ki_beacon(e["entity"])
         end
     end
@@ -701,7 +701,7 @@ function el_ki_single_beacon_update(id)
                 if storage.ki.core[coreunit] then
                     if storage.ki.core[coreunit].active then
                         local moduleset = storage.ki.core[coreunit].totalmodules
-                        if beacon_entity.name == 'fu_ki_beacon_entity' then
+                        if beacon_entity.name == 'fu_ki_beacon' then
                             if game.forces[1].technologies['fu_ki_plus_2_tech'].researched then
                                 moduleset = storage.ki.core[coreunit].fu_ki_plus_2_modules
                             elseif game.forces[1].technologies['fu_ki_plus_1_tech'].researched then
@@ -759,9 +759,9 @@ function make_beacon_text(entity)
 end
 
 function remove_request_ghost(entity)
-    --[[if (entity.ghost_name == "el_ki_beacon_entity") or  --no entiendo la funcion de esta funcion
-       (entity.ghost_name == "fi_ki_beacon_entity") or      --quitarla no causa errores o cambios
-       (entity.ghost_name == "fu_ki_beacon_entity") then
+    --[[if (entity.ghost_name == "el_ki_beacon") or  --no entiendo la funcion de esta funcion
+       (entity.ghost_name == "fi_ki_beacon") or      --quitarla no causa errores o cambios
+       (entity.ghost_name == "fu_ki_beacon") then
         if entity.valid then
             entity.destroy()
         end
@@ -925,7 +925,7 @@ end
 function make_slave_ki_core(entity)
     local pos = entity.position
     local slave = entity.surface.create_entity{
-        name = 'el_ki_core_slave_entity',
+        name = 'el_ki_core_slave',
         position = pos,
         force = entity.force
     }
@@ -936,7 +936,7 @@ end
 function make_slave_ki_buffer1(entity)
     local pos = entity.position
     local slave = entity.surface.create_entity{
-        name = 'fi_ki_core_slave_entity',
+        name = 'fi_ki_core_slave',
         position = pos,
         force = entity.force
     }
@@ -947,7 +947,7 @@ end
 function make_container_ki_buffer1(entity)
     local pos = {entity.position.x, entity.position.y + 2}
     local container = entity.surface.create_entity{
-        name = 'fi_ki_core_slave_container_entity',
+        name = 'fi_ki_core_slave_container',
         position = pos,
         force = entity.force
     }
@@ -958,7 +958,7 @@ end
 function make_slave_ki_buffer2(entity)
     local pos = entity.position
     local slave = entity.surface.create_entity{
-        name = 'fu_ki_core_slave_entity',
+        name = 'fu_ki_core_slave',
         position = pos,
         force = entity.force
     }
@@ -969,7 +969,7 @@ end
 function make_container_ki_buffer2(entity)
     local pos = {entity.position.x, entity.position.y + 2}
     local container = entity.surface.create_entity{
-        name = 'fu_ki_core_slave_container_entity',
+        name = 'fu_ki_core_slave_container',
         position = pos,
         force = entity.force
     }

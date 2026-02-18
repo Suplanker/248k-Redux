@@ -41,7 +41,7 @@ if settings.startup['retexture_science'].value then
         retexture_science(retexture_table)
 
         data.raw.tool["automation-science-pack"].icon = sprite("red_science")
-        data.raw.tool["fu_space_probe_science_item"].icon = sprite("exotic_science")
+        data.raw.tool["fu_space_probe_science"].icon = sprite("exotic_science")
     end
 
 end --indent ignored

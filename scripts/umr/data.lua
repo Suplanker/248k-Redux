@@ -10,15 +10,15 @@ data:extend({
         effects = {
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusor_recipe',
+                recipe = 'fu_fusor',
             },
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_1_recipe',
+                recipe = 'fu_fusion_card_1',
             },
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_2_recipe',
+                recipe = 'fu_fusion_card_2',
             },
             { 
                 type = 'unlock-recipe',
@@ -26,11 +26,11 @@ data:extend({
             },
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_4_recipe',
+                recipe = 'fu_fusion_card_4',
             },
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_5_recipe',
+                recipe = 'fu_fusion_card_5',
             },
             { 
                 type = 'unlock-recipe',
@@ -38,7 +38,7 @@ data:extend({
             },
             { 
                 type = 'unlock-recipe',
-                recipe = 'fu_fusion_card_7_recipe',
+                recipe = 'fu_fusion_card_7',
             },
             {
                 type = 'nothing',
@@ -65,7 +65,7 @@ data:extend({
             {type="fluid", name="fu_lithium_6", amount=100},
             {type="fluid", name="fu_helium_3", amount=100},
         },
-        result = 'fu_materials_fusion_card',
+        result = 'fu_fusion_card',
         result_count = 100,
         energy_required = 100,
         always_show_made_in = true,
@@ -79,7 +79,7 @@ data:extend({
             {type="fluid", name="fu_deuterium", amount=100},
             {type="fluid", name="fu_helium_3", amount=100},
         },
-        result = 'fu_materials_fusion_card',
+        result = 'fu_fusion_card',
         result_count = 20,
         energy_required = 100,
         always_show_made_in = true,

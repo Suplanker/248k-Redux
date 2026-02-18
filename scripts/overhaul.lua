@@ -62,58 +62,58 @@ end
 --[BUILDINGS]
 
 building_table = {
-    {"assembling-machine-2",    "el_materials_ALK", 3},
+    {"assembling-machine-2",    "el_ALK", 3},
     --
-    --{"fast-inserter",           "el_aluminum_item", 2},
-    --{"long-handed-inserter",    "el_aluminum_item", 2},
+    --{"fast-inserter",           "el_aluminum", 2},
+    --{"long-handed-inserter",    "el_aluminum", 2},
     --
-    {"engine-unit",             "el_materials_ALK", 3},
-    {"fast-transport-belt",     "el_materials_ALK", 1},
-    {"fast-splitter",           "el_materials_ALK", 3},
-    {"fast-underground-belt",   "el_materials_ALK", 8},
-    {"chemical-plant",          "el_materials_ALK", 6},
-    {"oil-refinery",            "el_materials_ALK", 6},
-    {"medium-electric-pole",    "el_materials_ALK", 2},
-    {"big-electric-pole",       "el_materials_ALK", 4},
+    {"engine-unit",             "el_ALK", 3},
+    {"fast-transport-belt",     "el_ALK", 1},
+    {"fast-splitter",           "el_ALK", 3},
+    {"fast-underground-belt",   "el_ALK", 8},
+    {"chemical-plant",          "el_ALK", 6},
+    {"oil-refinery",            "el_ALK", 6},
+    {"medium-electric-pole",    "el_ALK", 2},
+    {"big-electric-pole",       "el_ALK", 4},
 
-    {"bulk-inserter",          "el_energy_crystal_item", 2},
+    {"bulk-inserter",          "el_energy_crystal", 2},
 
-    {"express-splitter",        "fi_materials_GFK", 3},
-    {"express-transport-belt",  "fi_materials_GFK", 1},
-    {"express-underground-belt","fi_materials_GFK", 8},
-    {"electric-furnace",        "fi_materials_GFK", 4},
-    {"centrifuge",              "fi_materials_GFK", 20},
-    {"steam-turbine",           "fi_materials_GFK", 15},
-    {"heat-exchanger",          "fi_materials_GFK", 10},
-    {"heat-pipe",               "fi_materials_titan",1},
+    {"express-splitter",        "fi_GFK", 3},
+    {"express-transport-belt",  "fi_GFK", 1},
+    {"express-underground-belt","fi_GFK", 8},
+    {"electric-furnace",        "fi_GFK", 4},
+    {"centrifuge",              "fi_GFK", 20},
+    {"steam-turbine",           "fi_GFK", 15},
+    {"heat-exchanger",          "fi_GFK", 10},
+    {"heat-pipe",               "fi_titan",1},
 
-    --{"rocket-silo",             "fu_materials_KFK", 40},
+    --{"rocket-silo",             "fu_KFK", 40},
 
-    {"beacon",                  "fi_materials_titan",   8},
-    {"substation",              "fi_materials_titan",   4},
-    {"assembling-machine-3",    "fi_materials_titan",   4},
+    {"beacon",                  "fi_titan",   8},
+    {"substation",              "fi_titan",   4},
+    {"assembling-machine-3",    "fi_titan",   4},
 }
 
 --[ITEMS]
 
 item_table = {
-    {"advanced-circuit",        "el_materials_ceramic", 2},
-    {"processing-unit",         "fi_materials_gold",    3},
-    {"electric-engine-unit",    "fi_materials_gold",    3},
-    {"flying-robot-frame",      "fi_materials_neodym",  6},
-    {"productivity-module-2",   "fi_modules_core_item", 1},
-    {"productivity-module-3",   "fi_modules_core_item", 3},
-    {"speed-module-2",          "fi_modules_core_item", 1},
-    {"speed-module-3",          "fi_modules_core_item", 3},
-    {"effectivity-module-2",    "fi_modules_core_item", 1},
-    {"effectivity-module-3",    "fi_modules_core_item", 3},
-    --{"satellite",               "fu_materials_KFK",     10},
+    {"advanced-circuit",        "el_ceramic", 2},
+    {"processing-unit",         "fi_gold",    3},
+    {"electric-engine-unit",    "fi_gold",    3},
+    {"flying-robot-frame",      "fi_neodym",  6},
+    {"productivity-module-2",   "fi_modules_core", 1},
+    {"productivity-module-3",   "fi_modules_core", 3},
+    {"speed-module-2",          "fi_modules_core", 1},
+    {"speed-module-3",          "fi_modules_core", 3},
+    {"effectivity-module-2",    "fi_modules_core", 1},
+    {"effectivity-module-3",    "fi_modules_core", 3},
+    --{"satellite",               "fu_KFK",     10},
 
-    --{"automation-science-pack",    "fi_modules_core_item",  3},
-    --{"logistic-science-pack",      "fi_modules_core_item",  3},
-    {"chemical-science-pack",        "el_energy_crystal_item",2},
-    {"production-science-pack",      "fi_materials_titan",  3},
-    {"utility-science-pack",         "fi_materials_neodym", 3},
+    --{"automation-science-pack",    "fi_modules_core",  3},
+    --{"logistic-science-pack",      "fi_modules_core",  3},
+    {"chemical-science-pack",        "el_energy_crystal",2},
+    {"production-science-pack",      "fi_titan",  3},
+    {"utility-science-pack",         "fi_neodym", 3},
     
 }
 
@@ -183,7 +183,7 @@ add_to_techs(change_table_index(tech_table, tech_structure))
 -- if no space exploration mod
 if not mods["space-exploration"] then
     -- rocket silo and satellite
-    add_to_recipes(change_table_index({{"rocket-silo", "fu_materials_KFK", 40}, {"satellite", "fu_materials_KFK", 10}}, recipe_structure))
+    add_to_recipes(change_table_index({{"rocket-silo", "fu_KFK", 40}, {"satellite", "fu_KFK", 10}}, recipe_structure))
     add_to_techs(change_table_index({{"rocket-silo", "fu_KFK_tech"}}, tech_structure))
 end
 

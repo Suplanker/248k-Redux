@@ -2,9 +2,9 @@
 local table_248k_diesel_train =
 {
 	{"Fuels", "Burn value", "Vehicle acceleration", "Top speed", "Equipment", "Effects"},
-    {"[item=el_train_fuel_diesel_item]", "100MJ", "100%", "100%","[item=el_train_equipment_accelerator_item]", "acceleration: +35%"},
-    {"[item=el_train_fuel_diesel_energized_item]", "135MJ", "55%", "130%", "[item=el_train_equipment_generator_item]", "power: +600kW"},
-    {"[item=fi_fuel_train_crystal_item]", "350MJ", "60%", "155%", "[item=fi_train_equipment_generator_item]", "power: +2.4MW"},
+    {"[item=el_train_fuel_diesel]", "100MJ", "100%", "100%","[item=el_train_equipment_accelerator]", "acceleration: +35%"},
+    {"[item=el_train_fuel_diesel_energized]", "135MJ", "55%", "130%", "[item=el_train_equipment_generator]", "power: +600kW"},
+    {"[item=fi_fuel_train_crystal]", "350MJ", "60%", "155%", "[item=fi_train_equipment_generator]", "power: +2.4MW"},
 }
 local table_248k_star_engine =
 {
@@ -13,7 +13,7 @@ local table_248k_star_engine =
     {"[item=iron-plate]", "1 000", "26 000"},
     {"[item=copper-plate]", "896", "26 000 "},
     {"[item=sulfur]", "1 000", "16 000"},
-    {"[item=el_lithium_item]", "1 000", "3 000"},
+    {"[item=el_lithium]", "1 000", "3 000"},
     {"[item=uranium-238]", "282", "26 000"},
     {"[item=uranium-235]", "282", "26 000"},
     {"Exotic Stage"},
@@ -23,14 +23,14 @@ local table_248k_star_engine =
 local table_248k_exotic_science =
 {
     {"Satelites", "Result", "Amount"},
-    {"[item=fu_space_probe_sputnik_item]", "[item=fu_space_probe_data_card_1_item]", "10"},
-    {"[item=fu_space_probe_probe_item]", "[item=fu_space_probe_data_card_2_item]", "10"},
-    {"[item=fu_space_probe_deep_probe_item]", "[item=fu_space_probe_ore_item]", "100"},
+    {"[item=fu_space_probe_sputnik]", "[item=fu_space_probe_data_card_1]", "10"},
+    {"[item=fu_space_probe_probe]", "[item=fu_space_probe_data_card_2]", "10"},
+    {"[item=fu_space_probe_deep_probe]", "[item=fu_space_probe_ore]", "100"},
 }
 --Thread
 local thread_248k = 
 {
-    name = {"248k mod " .. "[item=fu_star_engine_core_item]"},
+    name = {"248k mod " .. "[item=fu_star_engine_core]"},
     localized = false,
 	specified_version = 0,
 	topics =
@@ -49,7 +49,7 @@ local thread_248k =
             }
         },
         {
-            name  = "KI1 core " .. "[item=el_ki_core_item]",
+            name  = "KI1 core " .. "[item=el_ki_core]",
             localized = false,
             align = "center",
             topic =
@@ -62,7 +62,7 @@ local thread_248k =
             }
         },
         {
-            name  = "Diesel train " .. "[item=el_diesel_train_item]",
+            name  = "Diesel train " .. "[item=el_diesel_train]",
             localized = false,
             align = "center",
             topic =
@@ -73,7 +73,7 @@ local thread_248k =
             }
         },
         {
-            name  = "Fusion " .. "[item=fu_fusor_item]",
+            name  = "Fusion " .. "[item=fu_fusor]",
             localized = false,
             align = "center",
             topic =
@@ -87,7 +87,7 @@ local thread_248k =
             }
         },
         {
-            name  = "Star engine " .. "[item=fu_star_engine_core_item]",
+            name  = "Star engine " .. "[item=fu_star_engine_core]",
             localized = false,
             align = "center",
             topic =
@@ -100,7 +100,7 @@ local thread_248k =
             }
         },
         {
-            name  = "Exotic science " .. "[item=fu_space_probe_science_item]",
+            name  = "Exotic science " .. "[item=fu_space_probe_science]",
             localized = false,
             align = "center",
             topic =

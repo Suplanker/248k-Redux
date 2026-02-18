@@ -152,16 +152,16 @@ end
 --[BUILDINGS]
 
 building_table = {
-    --{"kr-electrolysis-plant",           "el_materials_ALK", 10},
+    --{"kr-electrolysis-plant",           "el_ALK", 10},
 
 }
 
 --[ITEMS]
 
 item_table = {
-    {"fi_train_equipment_generator_recipe",   "fi_tech_fuel", 10},
-    {"fi_equipment_player_reactor_recipe",    "fi_tech_fuel", 10},
-    {"fu_tech_sign_recipe",                   "fi_tech_fuel", 1},
+    {"fi_train_equipment_generator",   "fi_tech_fuel", 10},
+    {"fi_equipment_player_reactor",    "fi_tech_fuel", 10},
+    {"fu_tech_sign",                   "fi_tech_fuel", 1},
     
 }
 
@@ -211,7 +211,7 @@ data.raw.item["uranium-fuel-cell"].localised_description = {"item-description.ur
 
 data.raw.technology["nuclear-fuel-reprocessing"].hidden = true
 
-data.raw.reactor["fi_solid_reactor_entity"] = nil
+data.raw.reactor["fi_solid_reactor"] = nil
 data.raw.reactor["realistic-reactor-breeder"].energy_source.fuel_categories = {"fi_advanced_fuel", "fi_basic_fuel"}
 data.raw.reactor["realistic-reactor-normal"].energy_source.fuel_categories = {"fi_advanced_fuel", "fi_basic_fuel"}
 data.raw.reactor["realistic-reactor"].energy_source.fuel_categories = {"fi_advanced_fuel", "fi_basic_fuel"}
@@ -222,35 +222,35 @@ end
 
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_advanced_fuel_recipe',
+    recipe = 'fi_advanced_fuel',
 })
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_pure_fuel_recipe',
+    recipe = 'fi_pure_fuel',
 })
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_advanced_thorium_fuel_recipe',
+    recipe = 'fi_advanced_thorium_fuel',
 })
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_advanced_fuel_recycle_recipe',
+    recipe = 'fi_advanced_fuel_recycle',
 })
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_advanced_thorium_fuel_recycle_recipe',
+    recipe = 'fi_advanced_thorium_fuel_recycle',
 })
 table.insert(data.raw.technology["nuclear-power"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'fi_pure_fuel_recycle_recipe',
+    recipe = 'fi_pure_fuel_recycle',
 })
 
 data.raw.recipe["realistic-reactor"].ingredients = {
-    {"fi_solid_reactor_item", 1}, {"fi_tech_fuel", 20}, {"heat-pipe", 20}
+    {"fi_solid_reactor", 1}, {"fi_tech_fuel", 20}, {"heat-pipe", 20}
 }
 
 data.raw.recipe["breeder-reactor"].ingredients = {
-    {"fi_solid_reactor_item", 1}, {"fi_tech_fuel", 40}, {"heat-pipe", 20}, {"productivity-module-3", 3}
+    {"fi_solid_reactor", 1}, {"fi_tech_fuel", 40}, {"heat-pipe", 20}, {"productivity-module-3", 3}
 }
 
 data:extend({
@@ -292,7 +292,7 @@ data:extend({
         category = 'crafting',
         ingredients = {
             {'uranium-238',2},
-            {'el_materials_ALK',5},
+            {'el_ALK',5},
         },
         result = 'fi_test_fuel',
         result_count = 1,
@@ -337,7 +337,7 @@ data:extend({
         effects = {
             { 
                 type = 'unlock-recipe',
-                recipe = 'fi_solid_reactor_recipe',
+                recipe = 'fi_solid_reactor',
             },
             { 
                 type = 'unlock-recipe',
@@ -359,7 +359,7 @@ data:extend({
         },
     },
     {
-        name = 'fi_solid_reactor_entity',
+        name = 'fi_solid_reactor',
         type = 'assembling-machine',
         icon = '__248k-Redux-graphics__/ressources/fission/fi_solid_reactor/fi_solid_reactor_entity_icon.png',
         icon_size = 64,
@@ -371,7 +371,7 @@ data:extend({
         map_color = {r=0, g=0, b=1, a=1},
         minable = {
             mining_time = 1,
-            result = 'fi_solid_reactor_item',
+            result = 'fi_solid_reactor',
         },
         fixed_recipe = 'fi_use_tech_fuel_recipe',
         crafting_categories = {"fi_test_fuel_crafting_category"},

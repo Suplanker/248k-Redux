@@ -3,27 +3,27 @@ local function sprite(name)
 end
 
 data.raw["assembling-machine"]["oil-refinery"].fixed_recipe = nil
-data.raw["recipe"]["fi_materials_steel_recipe"].result = "steel-ingot"
-data.raw["recipe"]["fi_materials_steel_recipe"].result_count = 16
-data.raw["recipe"]["fu_robo_logistic_recipe"].ingredients = {
+data.raw["recipe"]["fi_steel"].result = "steel-ingot"
+data.raw["recipe"]["fi_steel"].result_count = 16
+data.raw["recipe"]["fu_robo_logistic"].ingredients = {
     {type="item", name="logistic-robot", amount=2},
-    {type="item", name="fu_tech_sign_item", amount=2},
-    {type="item", name="fi_energy_crystal_item", amount=3},
+    {type="item", name="fu_tech_sign", amount=2},
+    {type="item", name="fi_energy_crystal", amount=3},
     {type="item", name="low-density-structure", amount=20},
     {type="item", name="el_lithium_battery", amount=10},
     {type="item", name="gyroscope", amount=8},
 }
-data.raw["recipe"]["fu_robo_construction_recipe"].ingredients = {
+data.raw["recipe"]["fu_robo_construction"].ingredients = {
     {type="item", name="logistic-robot", amount=2},
-    {type="item", name="fu_tech_sign_item", amount=2},
-    {type="item", name="fi_energy_crystal_item", amount=3},
+    {type="item", name="fu_tech_sign", amount=2},
+    {type="item", name="fi_energy_crystal", amount=3},
     {type="item", name="low-density-structure", amount=20},
     {type="item", name="el_lithium_battery", amount=10},
     {type="item", name="gyroscope", amount=8},
 }
-data.raw["recipe"]["fu_star_engine_caster_1_recipe"].results = {{type="item", name="iron-ingot", amount=500}}
-data.raw["recipe"]["fu_star_engine_caster_2_recipe"].results = {{type="item", name="copper-ingot", amount=500}}
-data.raw["recipe"]["gr_steel_recipe"].results = {{type="item", name="steel-ingot", amount=500}}
+data.raw["recipe"]["fu_star_engine_caster_1"].results = {{type="item", name="iron-ingot", amount=500}}
+data.raw["recipe"]["fu_star_engine_caster_2"].results = {{type="item", name="copper-ingot", amount=500}}
+data.raw["recipe"]["gr_steel"].results = {{type="item", name="steel-ingot", amount=500}}
 data:extend({
     {
         name = 'gr_stainless_steel_recipe',
@@ -158,7 +158,7 @@ data:extend({
                 {'production-science-pack',1},
                 {'utility-science-pack',1}, 
                 {'space-science-pack',1}, 
-                {'fu_space_probe_science_item',1}
+                {'fu_space_probe_science',1}
             },
             time = 100,
         },

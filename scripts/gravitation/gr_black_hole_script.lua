@@ -42,14 +42,14 @@ end
 
 function gr_black_hole_on_built(e)
     if e['entity'] then
-        if e['entity'].name == "gr_black_hole_base_entity" then
+        if e['entity'].name == "gr_black_hole_base" then
            make_black_hole(e['entity'])
            --game.print("make")
         end     
     end
 
     if e['created_entity'] then
-        if e['created_entity'].name == "gr_black_hole_base_entity" then
+        if e['created_entity'].name == "gr_black_hole_base" then
             make_black_hole(e['created_entity'])
         end
     end
@@ -61,7 +61,7 @@ end
 
 function gr_black_hole_on_remove(e)
     if e["entity"] then
-        if e["entity"].name == "gr_black_hole_base_entity" then
+        if e["entity"].name == "gr_black_hole_base" then
             if e["player_index"] then
                 destroy_black_hole(e["entity"],e["player_index"],nil)
             elseif e["robot"] then
@@ -230,7 +230,7 @@ end
 function create_black_hole_energy(base_entity)
     local pos = base_entity.position
     local slave = base_entity.surface.create_entity{
-        name = 'gr_black_hole_energy_entity',
+        name = 'gr_black_hole_energy',
         position = pos,
         force = base_entity.force
     }
@@ -263,8 +263,8 @@ function black_hole_base_update()
                             local power_gen, matter_consumption = calc_black_hole_stats(stable)
 
                             
-                            local new_matter = inv.get_item_count() - inv.get_item_count("gr_materials_stabilizer_item")
-                            local new_stabilizer = inv.get_item_count("gr_materials_stabilizer_item")
+                            local new_matter = inv.get_item_count() - inv.get_item_count("gr_stabilizer")
+                            local new_stabilizer = inv.get_item_count("gr_stabilizer")
 
                             stable = stable - 1
                             if total then
@@ -315,8 +315,8 @@ function can_make_black_hole_energy(entity)
     if entity.valid then
         -- local statement is very important to avoid MP desync and save/load cycle mismatch
         local inv = entity.get_inventory(defines.inventory.chest)
-        local total = inv.get_item_count() - inv.get_item_count("gr_materials_stabilizer_item")
-        local stabilizer = inv.get_item_count("gr_materials_stabilizer_item")
+        local total = inv.get_item_count() - inv.get_item_count("gr_stabilizer")
+        local stabilizer = inv.get_item_count("gr_stabilizer")
         if (stabilizer >= 100) and (total >= 1000) then
             return true
         else

@@ -91,7 +91,7 @@ require('scripts/clean_up')
 --fix early kerosene
 table.insert(data.raw.technology["advanced-oil-processing"].effects, { 
     type = 'unlock-recipe',
-    recipe = 'el_kerosene_recipe',
+    recipe = 'el_kerosene',
 })
 
 --add kerosene and desulfurized kerosene to flame thrower
@@ -132,7 +132,7 @@ data:extend({
 })
 
 if data.raw.technology["atomic-bomb"] then
-    table.insert(data.raw.technology["atomic-bomb"].effects, {type ="unlock-recipe", recipe ="fi_atomic_bomb_recipe"})
+    table.insert(data.raw.technology["atomic-bomb"].effects, {type ="unlock-recipe", recipe ="fi_atomic_bomb"})
 end
 
 local style = data.raw["gui-style"]["default"]

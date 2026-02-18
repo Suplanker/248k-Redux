@@ -3,11 +3,11 @@ local function config(name)
 end
 
 --techs
-table.insert(data.raw.lab["gr_lab_entity"].inputs, "se-deep-space-science-pack-1")
-table.insert(data.raw.lab["gr_lab_entity"].inputs, "se-material-science-pack-2")
-table.insert(data.raw.lab["gr_lab_entity"].inputs, "se-rocket-science-pack")
-table.insert(data.raw.lab["gr_lab_entity"].inputs, "space-science-pack")
-table.insert(data.raw.lab["gr_lab_entity"].inputs, "production-science-pack")
+table.insert(data.raw.lab["gr_lab"].inputs, "se-deep-space-science-pack-1")
+table.insert(data.raw.lab["gr_lab"].inputs, "se-material-science-pack-2")
+table.insert(data.raw.lab["gr_lab"].inputs, "se-rocket-science-pack")
+table.insert(data.raw.lab["gr_lab"].inputs, "space-science-pack")
+table.insert(data.raw.lab["gr_lab"].inputs, "production-science-pack")
 
 --se-energy-science-pack-1
 table.insert(data.raw.technology["fu_energy_tech"].unit.ingredients, {"se-energy-science-pack-1", 1})
@@ -44,43 +44,43 @@ for i,v in pairs(data.raw.beacon) do
 end
 
 --buff beacons
-data.raw.beacon["el_ki_beacon_entity"].module_specification = {
+data.raw.beacon["el_ki_beacon"].module_specification = {
     module_slots = 10,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
 }
-data.raw.beacon["el_ki_beacon_entity"].energy_usage = '2MW'
-data.raw.beacon["el_ki_beacon_entity"].supply_area_distance = config('supply_area') + 2
+data.raw.beacon["el_ki_beacon"].energy_usage = '2MW'
+data.raw.beacon["el_ki_beacon"].supply_area_distance = config('supply_area') + 2
 
-data.raw.beacon["fi_ki_beacon_entity"].module_specification = {
+data.raw.beacon["fi_ki_beacon"].module_specification = {
     module_slots = 15,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
 }
-data.raw.beacon["fi_ki_beacon_entity"].energy_usage = '8MW'
-data.raw.beacon["fi_ki_beacon_entity"].supply_area_distance = config('supply_area') + 6
+data.raw.beacon["fi_ki_beacon"].energy_usage = '8MW'
+data.raw.beacon["fi_ki_beacon"].supply_area_distance = config('supply_area') + 6
 
-data.raw.beacon["fu_ki_beacon_entity"].module_specification = {
+data.raw.beacon["fu_ki_beacon"].module_specification = {
     module_slots = 45,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
 }
-data.raw.beacon["fu_ki_beacon_entity"].energy_usage = '80MW'
-data.raw.beacon["fu_ki_beacon_entity"].supply_area_distance = config('supply_area') + 15
+data.raw.beacon["fu_ki_beacon"].energy_usage = '80MW'
+data.raw.beacon["fu_ki_beacon"].supply_area_distance = config('supply_area') + 15
 
 
 --buff cores
-data.raw.beacon["el_ki_core_slave_entity"].module_specification = {
+data.raw.beacon["el_ki_core_slave"].module_specification = {
     module_slots = 5,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
 }
-data.raw.beacon["fi_ki_core_slave_entity"].module_specification = {
+data.raw.beacon["fi_ki_core_slave"].module_specification = {
     module_slots = 5,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
 }
-data.raw.beacon["fu_ki_core_slave_entity"].module_specification = {
+data.raw.beacon["fu_ki_core_slave"].module_specification = {
     module_slots = 5,
     module_info_icon_shift = {0, 0.5},
     module_info_multi_row_initial_height_modifier = -0.3,
