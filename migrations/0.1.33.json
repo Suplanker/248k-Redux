@@ -1060,11 +1060,11 @@
     ],
     [
       "gr_materials_blue_data_item",
-      "gr_materials_blue_data"
+      "gr_blue_data"
     ],
     [
       "gr_materials_blue_item",
-      "gr_materials_blue"
+      "gr_blue"
     ],
     [
       "gr_materials_blue_pack",
@@ -1072,7 +1072,7 @@
     ],
     [
       "gr_materials_blue_pack_item",
-      "gr_materials_blue_pack"
+      "gr_blue_pack"
     ],
     [
       "gr_materials_charge",
@@ -1080,7 +1080,7 @@
     ],
     [
       "gr_materials_charge_item",
-      "gr_materials_charge"
+      "gr_charge"
     ],
     [
       "gr_materials_charge_remote",
@@ -1096,7 +1096,7 @@
     ],
     [
       "gr_materials_cooked_crystal_item",
-      "gr_materials_cooked_crystal"
+      "gr_cooked_crystal"
     ],
     [
       "gr_materials_crushed_exotic",
@@ -1104,7 +1104,7 @@
     ],
     [
       "gr_materials_crushed_exotic_item",
-      "gr_materials_crushed_exotic"
+      "gr_crushed_exotic"
     ],
     [
       "gr_materials_data",
@@ -1112,7 +1112,7 @@
     ],
     [
       "gr_materials_data_item",
-      "gr_materials_data"
+      "gr_data"
     ],
     [
       "gr_materials_fusion_cell",
@@ -1120,7 +1120,7 @@
     ],
     [
       "gr_materials_fusion_cell_item",
-      "gr_materials_fusion_cell"
+      "gr_fusion_cell"
     ],
     [
       "gr_materials_gold_wire",
@@ -1136,11 +1136,11 @@
     ],
     [
       "gr_materials_green_data_item",
-      "gr_materials_green_data"
+      "gr_green_data"
     ],
     [
       "gr_materials_green_item",
-      "gr_materials_green"
+      "gr_green"
     ],
     [
       "gr_materials_green_pack",
@@ -1148,7 +1148,7 @@
     ],
     [
       "gr_materials_green_pack_item",
-      "gr_materials_green_pack"
+      "gr_green_pack"
     ],
     [
       "gr_materials_grey",
@@ -1160,11 +1160,11 @@
     ],
     [
       "gr_materials_grey_data_item",
-      "gr_materials_grey_data"
+      "gr_grey_data"
     ],
     [
       "gr_materials_grey_item",
-      "gr_materials_grey"
+      "gr_grey"
     ],
     [
       "gr_materials_grey_pack",
@@ -1172,7 +1172,7 @@
     ],
     [
       "gr_materials_grey_pack_item",
-      "gr_materials_grey_pack"
+      "gr_grey_pack"
     ],
     [
       "gr_materials_magnet",
@@ -1196,11 +1196,11 @@
     ],
     [
       "gr_materials_purple_data_item",
-      "gr_materials_purple_data"
+      "gr_purple_data"
     ],
     [
       "gr_materials_purple_item",
-      "gr_materials_purple"
+      "gr_purple"
     ],
     [
       "gr_materials_purple_pack",
@@ -1208,7 +1208,7 @@
     ],
     [
       "gr_materials_purple_pack_item",
-      "gr_materials_purple_pack"
+      "gr_purple_pack"
     ],
     [
       "gr_materials_red",
@@ -1216,15 +1216,15 @@
     ],
     [
       "gr_materials_red_data",
-      "gr_red_data"
+      "gr_red"
     ],
     [
       "gr_materials_red_data_item",
-      "gr_materials_red_data"
+      "gr_red"
     ],
     [
       "gr_materials_red_item",
-      "gr_materials_red"
+      "gr_red"
     ],
     [
       "gr_materials_red_pack",
@@ -1232,7 +1232,7 @@
     ],
     [
       "gr_materials_red_pack_item",
-      "gr_materials_red_pack"
+      "gr_red_pack"
     ],
     [
       "gr_materials_refined_crystal",
@@ -1240,7 +1240,7 @@
     ],
     [
       "gr_materials_refined_crystal_item",
-      "gr_materials_refined_crystal"
+      "gr_refined_crystal"
     ],
     [
       "gr_materials_stabilizer",
@@ -1248,7 +1248,7 @@
     ],
     [
       "gr_materials_stabilizer_item",
-      "gr_materials_stabilizer"
+      "gr_stabilizer"
     ],
     [
       "gr_materials_stack_down",
@@ -1256,7 +1256,7 @@
     ],
     [
       "gr_materials_stack_down_item",
-      "gr_materials_stack_down"
+      "gr_stack_down"
     ],
     [
       "gr_materials_stack_up",
@@ -1264,7 +1264,7 @@
     ],
     [
       "gr_materials_stack_up_item",
-      "gr_materials_stack_up"
+      "gr_stack_up"
     ],
     [
       "gr_materials_stacked_data",
@@ -1272,7 +1272,7 @@
     ],
     [
       "gr_materials_stacked_data_item",
-      "gr_materials_stacked_data"
+      "gr_stacked_data"
     ],
     [
       "gr_materials_upgrade",
@@ -1288,11 +1288,11 @@
     ],
     [
       "gr_materials_white_data_item",
-      "gr_materials_white_data"
+      "gr_white_data"
     ],
     [
       "gr_materials_white_item",
-      "gr_materials_white"
+      "gr_white"
     ],
     [
       "gr_materials_white_pack",
@@ -1300,7 +1300,7 @@
     ],
     [
       "gr_materials_white_pack_item",
-      "gr_materials_white_pack"
+      "gr_white_pack"
     ],
     [
       "gr_materials_yellow",
@@ -1312,11 +1312,11 @@
     ],
     [
       "gr_materials_yellow_data_item",
-      "gr_materials_yellow_data"
+      "gr_yellow_data"
     ],
     [
       "gr_materials_yellow_item",
-      "gr_materials_yellow"
+      "gr_yellow"
     ],
     [
       "gr_materials_yellow_pack",
@@ -1324,7 +1324,7 @@
     ],
     [
       "gr_materials_yellow_pack_item",
-      "gr_materials_yellow_pack"
+      "gr_yellow_pack"
     ],
     [
       "gr_white_hole_item",
@@ -1350,7 +1350,7 @@
     ],
     [
       "el_aluminum_item_recipe",
-      "el_aluminum_item"
+      "el_aluminum"
     ],
     [
       "el_arc_furnace_recipe",
@@ -1405,13 +1405,14 @@
       "el_ceramic"
     ],
     [
-      "el_charge_crystal",
+      "el_charge_crystal_recipe",
       "el_energy_crystal_charged"
     ],
     [
-      "el_charge_crystal_recipe",
-      "el_charge_crystal"
+      "el_charge_crystal",
+      "el_energy_crystal_charged"
     ],
+
     [
       "el_charger_recipe",
       "el_charger"
@@ -1654,8 +1655,9 @@
     ],
     [
       "fi_charge_crystal_recipe",
-      "fi_charge_crystal"
+      "fi_energy_crystal_charged"
     ],
+
     [
       "fi_compound_machine_recipe",
       "fi_compound_machine"
@@ -1798,15 +1800,15 @@
     ],
     [
       "fi_materials_industrial_steel_blend_recipe",
-      "fi_materials_industrial_steel_blend"
+      "fi_industrial_steel_blend"
     ],
     [
       "fi_materials_industrial_steel_recipe",
-      "fi_materials_industrial_steel"
+      "fi_industrial_steel"
     ],
     [
       "fi_materials_steel_recipe",
-      "fi_materials_steel"
+      "fi_industrial_steel"
     ],
     [
       "fi_miner_recipe",
@@ -1814,7 +1816,7 @@
     ],
     [
       "fi_miner_upgrade_recipe",
-      "fi_miner_upgrade"
+      "fi_upgrade"
     ],
     [
       "fi_modules_base_recipe",
@@ -2054,7 +2056,7 @@
     ],
     [
       "fu_charge_crystal_recipe",
-      "fu_charge_crystal"
+      "fu_energy_charged_crystal"
     ],
     [
       "fu_charger_hydrogen_oxygen_1_recipe",
@@ -2082,7 +2084,7 @@
     ],
     [
       "fu_drill_recipe",
-      "fu_drill"
+      "fu_miner"
     ],
     [
       "fu_empty_container_recipe",
@@ -2106,7 +2108,7 @@
     ],
     [
       "fu_exchanger_item_recipe",
-      "fu_exchanger_item"
+      "fu_exchanger"
     ],
     [
       "fu_extract_stone_recipe",
@@ -2194,7 +2196,7 @@
     ],
     [
       "fu_laser_crystal_recipe",
-      "fu_laser_crystal"
+      "fu_energy_crystal"
     ],
     [
       "fu_laser_recipe",
@@ -2250,7 +2252,7 @@
     ],
     [
       "fu_miner_upgrade_recipe",
-      "fu_miner_upgrade"
+      "fu_upgrade"
     ],
     [
       "fu_mining_recipe",
@@ -2538,7 +2540,7 @@
     ],
     [
       "gr_green_recipe",
-      "gr_green"
+      "gr_green_data"
     ],
     [
       "gr_grey_data_recipe",
@@ -2594,27 +2596,27 @@
     ],
     [
       "gr_materials_charge_recipe",
-      "gr_materials_charge"
+      "gr_charge"
     ],
     [
       "gr_materials_charge_remote_recipe",
-      "gr_materials_charge_remote"
+      "gr_charge_remote"
     ],
     [
       "gr_materials_fusion_cell_recipe",
-      "gr_materials_fusion_cell"
+      "gr_fusion_cell"
     ],
     [
       "gr_materials_stack_down_item_recipe",
-      "gr_materials_stack_down_item"
+      "gr_stack_down"
     ],
     [
       "gr_materials_stack_up_item_recipe",
-      "gr_materials_stack_up_item"
+      "gr_stack_up"
     ],
     [
       "gr_miner_upgrade_recipe",
-      "gr_miner_upgrade"
+      "gr_upgrade"
     ],
     [
       "gr_pcb_recipe",
@@ -2695,6 +2697,32 @@
     [
       "gr_yellow_recipe",
       "gr_yellow"
+    ]
+  ],
+  "equipment": [
+    [
+      "el_train_equipment_accelerator_item",
+      "el_train_equipment_accelerator"
+    ],
+    [
+      "el_train_equipment_generator_item",
+      "el_train_equipment_generator"
+    ],
+    [
+      "fi_equipment_player_reactor_item",
+      "fi_equipment_player_reactor"
+    ],
+    [
+      "fi_equipment_player_shield_item",
+      "fi_equipment_player_shield"
+    ],
+    [
+      "fi_train_equipment_generator_item",
+      "fi_train_equipment_generator"
+    ],
+    [
+      "gr_materials_charge_item",
+      "gr_charge"
     ]
   ]
 }

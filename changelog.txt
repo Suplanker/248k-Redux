@@ -1,4 +1,9 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.1.33
+Date: 17.2.2026
+  Changes:
+    - Standardized prototype names, fixing duplicate Factoriopedia entries and issues with parameterized blueprints. Special thanks to gakm4 for leading the standardization work.
+---------------------------------------------------------------------------------------------------
 Version: 0.1.32
 Date: 31.12.2025
   Changes:
