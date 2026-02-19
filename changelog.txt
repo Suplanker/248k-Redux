@@ -1,6 +1,6 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.34
-Date: 19.2.2026
+Date: 18.2.2026
   Changes:
     - Now 248k load with k2so (added by juh9870)
     - Added a possible failsafe for a crash when playing with the overhauls: SE + K2 + BZ + 248k + 5dim.
