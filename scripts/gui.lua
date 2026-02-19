@@ -426,7 +426,14 @@ end
 --=================================================================================
 
 function gui.on_change(e)
-    local player = game.get_player(e["player_index"])
+    --local player = game.get_player(e["player_index"])
+
+    --FailSafe for multiplayer crash
+    if not e.player_index then return end
+
+    local player = game.get_player(e.player_index)
+    if not (player and player.valid) then return end
+    --End of FailSafe
 
     if e["element"] then
         if e["element"].valid then

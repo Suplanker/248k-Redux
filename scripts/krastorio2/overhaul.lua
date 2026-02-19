@@ -74,10 +74,15 @@ local function remove_tech_card(tech, card)
     }
     ]]
 
-    for i,v in ipairs(data.raw.technology[tech].unit.ingredients) do
-        for j,w in ipairs(v) do
-            if w == card then
-                data.raw.technology[tech].unit.ingredients[i] = nil
+    local ings = data.raw.technology[tech].unit.ingredients
+    for i = #ings, 1, -1 do
+        local v = ings[i]
+        if v then
+            for _, w in ipairs(v) do
+                if w == card then
+                    table.remove(ings, i)
+                end
+
             end
         end
     end
@@ -366,7 +371,7 @@ tech_table = {
     {"fu_star_engine_tech",         "kr-matter-coal-processing"},
     {"fu_star_engine_tech",         "kr-matter-copper-processing"},
     {"fu_star_engine_tech",         "kr-matter-iron-processing"},
-    {"fu_star_engine_tech",         "kr-matter-minerals-processing"},
+--    {"fu_star_engine_tech",         "kr-matter-minerals-processing"},
     {"fu_star_engine_tech",         "kr-matter-oil-processing"},
     {"fu_star_engine_tech",         "kr-matter-rare-materials-processing"},
     {"fu_star_engine_tech",         "kr-matter-stone-processing"},
@@ -400,6 +405,10 @@ tech_table = {
     
 
 }
+
+if not mods["Krastorio2-spaced-out"] then
+    tech_table["fu_star_engine_tech"] = "kr-matter-minerals-processing"
+end
 
 --[ADD TECH CARDS]
 
