@@ -543,7 +543,7 @@ add_cards_to_tree(del_doubles(walk_techs("kr-singularity-tech-card", break_con))
 if mods["RealisticFusionPower"] then
     
   data.raw.recipe["fu_tokamak_reactor"].ingredients = {
-    {type="item",name = 'fu_magnet', amount = 200},
+    {type="item",name = 'fu_materials_magnet', amount = 200},
     {type="item",name = 'fu_TIM', amount = 400},
     {type="item",name = 'fu_KFK', amount = 400},
     {type="item",name = 'concrete', amount = 500},
@@ -554,7 +554,7 @@ if mods["RealisticFusionPower"] then
   }
 
   data.raw.recipe["fu_empty_container"].ingredients = {
-    {type="item", name="fu_magnet", amount=2},
+    {type="item", name="fu_materials_magnet", amount=2},
     {type="item", name="fu_KFK", amount=6},
     {type="item", name="fu_energy_crystal", amount=2},
     {type="item", name="fu_tech_sign", amount=10},

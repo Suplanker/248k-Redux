@@ -9,7 +9,7 @@ data:extend({
             {type = 'item', name = 'low-density-structure', amount = 100},
             {type = 'item', name = 'fu_TIM', amount = 100},
             {type = 'item', name = 'fu_KFK', amount = 100},
-            {type = 'item', name = 'fu_magnet', amount = 20},
+            {type = 'item', name = 'fu_materials_magnet', amount = 20},
             {type = 'item', name = 'fi_energy_crystal', amount = 100},
             {type = 'item', name = 'concrete', amount = 500},
             {type = 'item', name = 'lab', amount = 10},
@@ -27,7 +27,7 @@ data:extend({
         localised_name = {"entity-name.fu_stelar_reactor"},
         enabled = false,
         ingredients = {
-            {type = 'item', name = 'fu_magnet', amount = 100},
+            {type = 'item', name = 'fu_materials_magnet', amount = 100},
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'fu_KFK', amount = 200},
             {type = 'item', name = 'concrete', amount = 500},
@@ -47,7 +47,7 @@ data:extend({
         localised_name = {"entity-name.fu_tokamak_reactor"},
         enabled = false,
         ingredients = {
-            {type = 'item', name = 'fu_magnet', amount = 200},
+            {type = 'item', name = 'fu_materials_magnet', amount = 200},
             {type = 'item', name = 'fu_TIM', amount = 400},
             {type = 'item', name = 'fu_KFK', amount = 400},
             {type = 'item', name = 'concrete', amount = 500},
@@ -727,7 +727,7 @@ data:extend({
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'heat-pipe', amount = 200},
             {type = 'item', name = 'concrete', amount = 500},
-            {type = 'item', name = 'fu_magnet', amount = 100},
+            {type = 'item', name = 'fu_materials_magnet', amount = 100},
             {type = 'item', name = 'fu_energy_crystal', amount = 100},
             {type = 'item', name = 'fu_tech_sign', amount = 1000},
         },
@@ -747,7 +747,7 @@ data:extend({
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'heat-pipe', amount = 200},
             {type = 'item', name = 'concrete', amount = 500},
-            {type = 'item', name = 'fu_magnet', amount = 100},
+            {type = 'item', name = 'fu_materials_magnet', amount = 100},
             {type = 'item', name = 'fu_energy_crystal', amount = 100},
             {type = 'item', name = 'fu_tech_sign', amount = 1000},
         },
@@ -767,7 +767,7 @@ data:extend({
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'heat-pipe', amount = 200},
             {type = 'item', name = 'concrete', amount = 500},
-            {type = 'item', name = 'fu_magnet', amount = 100},
+            {type = 'item', name = 'fu_materials_magnet', amount = 100},
             {type = 'item', name = 'fu_energy_crystal', amount = 100},
             {type = 'item', name = 'fu_tech_sign', amount = 1000},
         },
@@ -787,7 +787,7 @@ data:extend({
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'heat-pipe', amount = 200},
             {type = 'item', name = 'concrete', amount = 500},
-            {type = 'item', name = 'fu_magnet', amount = 100},
+            {type = 'item', name = 'fu_materials_magnet', amount = 100},
             {type = 'item', name = 'fu_energy_crystal', amount = 100},
             {type = 'item', name = 'fu_tech_sign', amount = 1000},
         },
@@ -806,7 +806,7 @@ data:extend({
             {type = 'item', name = 'fu_KFK', amount = 200},
             {type = 'item', name = 'fu_TIM', amount = 200},
             {type = 'item', name = 'concrete', amount = 2000},
-            {type = 'item', name = 'fu_magnet', amount = 200},
+            {type = 'item', name = 'fu_materials_magnet', amount = 200},
             {type = 'item', name = 'fu_energy_crystal', amount = 200},
             {type = 'item', name = 'processing-unit', amount = 3000},
             {type = 'item', name = 'electronic-circuit', amount = 3000},
@@ -1349,12 +1349,12 @@ data:extend({
         energy_required = 4,
     },
     {
-        name = 'fu_magnet_1',
+        name = 'fu_materials_magnet',
         type = 'recipe',
-        localised_name = {"item-name.fu_magnet"},
+        localised_name = {"item-name.fu_materials_magnet"},
         enabled = false,
         category = 'fu_magnet_category',
-        main_product = 'fu_magnet',
+        main_product = 'fu_materials_magnet',
         ingredients = {
             {type="fluid", name="fu_lead_fluid_cold", amount=20},
             {type="item", name="fi_neodym", amount=6},
@@ -1362,7 +1362,7 @@ data:extend({
         },
         results = {
             {type="fluid", name="fu_lead_fluid_hot", amount=20},
-            {type="item", name="fu_magnet", amount=1},
+            {type="item", name="fu_materials_magnet", amount=1},
         },
         energy_required = 4,
         always_show_made_in = true,
@@ -1478,19 +1478,19 @@ data:extend({
         always_show_made_in = true
     },
     {
-        name = 'fu_magnet_card',
+        name = 'fu_materials_magnet_card',
         type = 'recipe',
-        localised_name = {"item-name.fu_magnet_card"},
+        localised_name = {"item-name.fu_materials_magnet_card"},
         enabled = false,
         category = 'fu_magnet_category',
-        main_product = 'fu_magnet_card',
+        main_product = 'fu_materials_magnet_card',
         ingredients = {
             {type="fluid", name="fu_lead_fluid_cold", amount=10},
             {type="item", name="fi_neodym", amount=1}
         },
         results = {
             {type="fluid", name="fu_lead_fluid_hot", amount=10},
-            {type="item", name="fu_magnet_card", amount=1}
+            {type="item", name="fu_materials_magnet_card", amount=1}
         },
         energy_required = 1,
         always_show_made_in = true
@@ -1544,7 +1544,7 @@ data:extend({
             {type="item", name="fu_laser_card", amount=1},
             {type="item", name="fu_plasma_card", amount=1},
             {type="item", name="fu_fusion_card", amount=1},
-            {type="item", name="fu_magnet_card", amount=1},
+            {type="item", name="fu_materials_magnet_card", amount=1},
         },
         results = {
             {type="item", name="fu_tech_sign", amount=2}
@@ -1572,7 +1572,7 @@ data:extend({
         localised_name = {"item-name.fu_empty_container"},
         enabled = false,
         ingredients = {
-            {type="item", name="fu_magnet", amount=2},
+            {type="item", name="fu_materials_magnet", amount=2},
             {type="item", name="fu_KFK", amount=6},
             {type="item", name="fu_energy_crystal", amount=2},
             {type="item", name="fu_tech_sign", amount=10},
@@ -1980,7 +1980,7 @@ data:extend({
             {type="item", name="fu_energy_charged_crystal", amount=10},
             {type="item", name="fu_KFK", amount=40},
             {type="item", name="fu_TIM", amount=40},
-            {type="item", name="fu_magnet", amount=10},
+            {type="item", name="fu_materials_magnet", amount=10},
         },
         results = {
             {type="item", name="fu_lab", amount=1},

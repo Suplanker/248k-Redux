@@ -8,7 +8,7 @@ data:extend({
         ingredients = {
             {type = 'item', name = 'fi_crafter', amount = 2},
             {type = 'item', name = 'fu_KFK', amount = 100},
-            {type = 'item', name = 'fu_magnet', amount = 10},
+            {type = 'item', name = 'fu_materials_magnet', amount = 10},
             {type = 'item', name = 'gr_fusion_cell', amount = 1},
             {type = 'item', name = 'gr_circuit', amount = 10},
         },
@@ -153,7 +153,7 @@ data:extend({
         ingredients = {
             {type="item", name="fu_KFK", amount=100},
             {type="item", name="fu_TIM", amount=100},
-            {type="item", name="fu_magnet", amount=100},
+            {type="item", name="fu_materials_magnet", amount=100},
             {type="item", name="fu_energy_crystal", amount=100},
             {type="item", name="el_diesel_train", amount=1},
         },
@@ -170,7 +170,7 @@ data:extend({
         ingredients = {
             {type="item", name="fu_KFK", amount=100},
             {type="item", name="fu_TIM", amount=100},
-            {type="item", name="fu_magnet", amount=100},
+            {type="item", name="fu_materials_magnet", amount=100},
             {type="item", name="fu_energy_crystal", amount=100},
             {type="item", name="cargo-wagon", amount=1},
         },
@@ -187,7 +187,7 @@ data:extend({
         ingredients = {
             {type="item", name="fu_KFK", amount=100},
             {type="item", name="fu_TIM", amount=100},
-            {type="item", name="fu_magnet", amount=100},
+            {type="item", name="fu_materials_magnet", amount=100},
             {type="item", name="fu_energy_crystal", amount=100},
             {type="item", name="fluid-wagon", amount=1},
         },
@@ -837,7 +837,7 @@ data:extend({
         ingredients = {
             {type="fluid", name="fu_lead_fluid_cold", amount=10},
             {type="item", name="gr_plasma_cube", amount=2},
-            {type="item", name="fu_magnet", amount=1},
+            {type="item", name="fu_materials_magnet", amount=1},
         },
         results = {
             {type="fluid", name="fu_lead_fluid_hot", amount=10},

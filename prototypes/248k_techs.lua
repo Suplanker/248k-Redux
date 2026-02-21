@@ -2127,11 +2127,11 @@ data:extend({
             },
             {
                 type = 'unlock-recipe',
-                recipe = 'fu_magnet_1',
+                recipe = 'fu_materials_magnet',
             },
             {
                 type = 'unlock-recipe',
-                recipe = 'fu_magnet_card',
+                recipe = 'fu_materials_magnet_card',
             },
         },
         unit = {

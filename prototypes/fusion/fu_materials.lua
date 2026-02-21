@@ -83,7 +83,7 @@ data:extend({
         weight = 4 * kg,
     },
     {
-        name = 'fu_magnet',
+        name = 'fu_materials_magnet',
         type = 'item',
         icon = sprite('magnet.png'),
         icon_size = 64,
@@ -123,7 +123,7 @@ data:extend({
         weight = 1 * kg,
     },
     {
-        name = 'fu_magnet_card',
+        name = 'fu_materials_magnet_card',
         type = 'item',
         icon = sprite('magnet_card.png'),
         icon_size = 64,

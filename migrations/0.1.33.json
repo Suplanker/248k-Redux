@@ -854,14 +854,7 @@
       "fu_materials_lead_ingot",
       "fu_lead_ingot"
     ],
-    [
-      "fu_materials_magnet",
-      "fu_magnet"
-    ],
-    [
-      "fu_materials_magnet_card",
-      "fu_magnet_card"
-    ],
+
     [
       "fu_materials_neodym_ingot",
       "fu_neodym_ingot"
@@ -2236,7 +2229,15 @@
     ],
     [
       "fu_magnet_card_recipe",
-      "fu_magnet_card"
+      "fu_materials_magnet_card"
+    ],
+    [
+      "fu_magnet_1",
+      "fu_materials_magnet"
+    ],
+    [
+      "fu_magnet_1_recipe",
+      "fu_materials_magnet"
     ],
     [
       "fu_magnet_recipe",

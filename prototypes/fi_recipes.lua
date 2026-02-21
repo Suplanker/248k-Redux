@@ -1853,7 +1853,7 @@ data:extend({
         ingredients = {
             {type="item", name="fi_modules_core", amount=2},
             {type="item", name="fi_upgrade", amount=2},
-            {type="item", name="fu_magnet", amount=10},
+            {type="item", name="fu_materials_magnet", amount=10},
         },
         results = {
             {type="item", name="fu_upgrade", amount=2},
