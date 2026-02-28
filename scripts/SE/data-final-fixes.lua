@@ -38,7 +38,7 @@ data.raw.technology["gr_stage_tech"].prerequisites = {
 }
 
 for i,v in pairs(data.raw.beacon) do
-    if (i == "el_ki_beacon_entity-spaced") or (i == "fi_ki_beacon_entity-spaced") or (i == "fu_ki_beacon_entity-spaced") then
+    if (i == "el_ki_beacon-spaced") or (i == "fi_ki_beacon-spaced") or (i == "fu_ki_beacon-spaced") then
         data.raw.beacon[i] = nil
     end
 end

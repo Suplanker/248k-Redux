@@ -335,15 +335,17 @@ end
 function register_ki_beacon(entity)
     local unit = entity.unit_number
 
-    storage.ki.beacon[unit] = {}
-    storage.ki.beacon[unit].entity = entity
-    storage.ki.beacon[unit].channel = storage.ki.standardchannel
+    storage.ki.beacon[unit] = {
+        entity = entity,
+        channel = storage.ki.standardchannel,
+        supported = is_beacon_supported()
+    }
 
     add_to_channel(unit)
-    storage.ki.beacon[unit].supported = is_beacon_supported()
 
     entity.operable = false
 end
+
 
 --=================================================================================
 --unregister
@@ -445,20 +447,23 @@ end
 --=================================================================================
 --update
 --=================================================================================
-function el_ki_core_working() 
-    for i in pairs(storage.ki.core) do
-        if storage.ki.core[i].entity.valid then
-            local oldactive = storage.ki.core[i].active
-            storage.ki.core[i].active = storage.ki.core[i].entity.is_crafting()
 
-            if storage.ki.core[i].active then
-                if storage.ki.core[i].entity.energy < storage.ki.core[i].entity.prototype.energy_usage then
-                    storage.ki.core[i].active = false
-                    storage.ki.dirty = true
+function el_ki_core_working() 
+    for i, core in pairs(storage.ki.core) do
+        local entity = core.entity
+        if entity.valid then
+            local oldactive = core.active
+            local newactive = entity.is_crafting()
+
+            if newactive then
+                if entity.energy < entity.prototype.energy_usage then
+                    newactive = false
                 end
             end
 
-            if not oldactive == storage.ki.core[i].active then
+            core.active = newactive
+
+            if oldactive ~= newactive then
                 storage.ki.dirty = true
             end
         end
@@ -466,43 +471,42 @@ function el_ki_core_working()
 end
 
 function el_ki_buffer1_working() 
-    for i in pairs(storage.ki.buffer1) do
-        if storage.ki.buffer1[i].entity.valid then
-            local entity = storage.ki.buffer1[i].entity
-            local oldactive = storage.ki.buffer1[i].active
+    for _,buffer1 in pairs(storage.ki.buffer1) do
+        local entity = buffer1.entity
+        if entity.valid then
+            local oldactive = buffer1.active
+            local newactive = entity.is_crafting()
+            --buffer1.active = entity.is_crafting()
 
-            storage.ki.buffer1[i].active = entity.is_crafting()
-            if storage.ki.buffer1[i].active then
+            if newactive then
                 if entity.energy < entity.prototype.energy_usage then
-                    storage.ki.buffer1[i].active = false
-                    storage.ki.dirty = true
+                    newactive = false
                 end
             end
-
-            if oldactive ~= storage.ki.buffer1[i].active then
+            buffer1.active = newactive
+            if oldactive ~= newactive then
                 storage.ki.dirty = true
             end
-        else
         end
     end
 end
 
-
-
 function el_ki_buffer2_working() 
-    for i in pairs(storage.ki.buffer2) do
-        if storage.ki.buffer2[i].entity.valid then
-            local oldactive = storage.ki.buffer2[i].active
-            storage.ki.buffer2[i].active = storage.ki.buffer2[i].entity.is_crafting()
+    for _,core in pairs(storage.ki.buffer2) do
+        local entity = core.entity
+        if entity.valid then
+            local oldactive = core.active
+            local newactive = entity.is_crafting()
 
-            if storage.ki.buffer2[i].active then
-                if storage.ki.buffer2[i].entity.energy < storage.ki.buffer2[i].entity.prototype.energy_usage then
-                    storage.ki.buffer2[i].active = false
-                    storage.ki.dirty = true
+            if newactive then
+                if entity.energy < entity.prototype.energy_usage then
+                    newactive = false
                 end
             end
 
-            if not oldactive == storage.ki.buffer2[i].active then
+            core.active = newactive
+
+            if oldactive ~= newactive then
                 storage.ki.dirty = true
             end
         end
