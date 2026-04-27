@@ -86,7 +86,7 @@ function gui.add_core_gui(e,update)
         type = "slider",
         name = "main248kcorechannelslider",
         value = channel,
-        minimun_value = 1,
+        minimum_value = 1,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -108,7 +108,7 @@ function gui.add_core_gui(e,update)
 
     local main248klinkedframe = main248kcorecontentframe.add({
         type = "frame",
-        name = "main248kkinkedframe",
+        name = "main248klinkedframe",
         caption = {"gui.linked beacons"},
         direction = "horizontal",
         style = "bordered_frame"
@@ -123,6 +123,8 @@ function gui.add_core_gui(e,update)
     storage.ki.gui.core.frame = main248kcoreframe
     storage.ki.gui.core.id = id
 end
+
+
 
 function gui.add_main_gui(player)
     if player.gui.left["main248kframe"] then
@@ -158,7 +160,7 @@ function gui.add_main_gui(player)
         type = "slider",
         name = "main248kprefchannelslider",
         value = storage.ki.standardchannel,
-        minimun_value = 0,
+        minimum_value = 0,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -218,7 +220,7 @@ function gui.add_main_gui(player)
         type = "slider",
         name = "main248kselectchannelslider",
         value = storage.ki.selectchannel,
-        minimun_value = 0,
+        minimum_value = 0,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -307,7 +309,7 @@ function gui.add_buffer1_gui(e,update)
         type = "slider",
         name = "main248kbuffer1channelslider",
         value = channel,
-        minimun_value = 1,
+        minimum_value = 1,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -397,7 +399,7 @@ function gui.add_buffer2_gui(e,update)
         type = "slider",
         name = "main248kbuffer2channelslider",
         value = channel,
-        minimun_value = 1,
+        minimum_value = 1,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -659,6 +661,7 @@ function gui.on_selected(e)
         end
     end
 end
+
 --=================================================================================
 --update
 --=================================================================================

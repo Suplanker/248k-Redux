@@ -156,19 +156,19 @@ script.on_event({
     },
     function(e)
         if e["entity"] then
-            if e["entity"].name == "el_ki_core_entity" then
+            if e["entity"].name == "el_ki_core" then
                 gui.add_core_gui(e,false)
             end
 
-            if e["entity"].name == "fi_ki_core_entity" then
+            if e["entity"].name == "fi_ki_core" then
                 gui.add_buffer1_gui(e,false)
             end
 
-            if e["entity"].name == "fu_ki_core_entity" then
+            if e["entity"].name == "fu_ki_core" then
                 gui.add_buffer2_gui(e,false)
             end
 
-            if e["entity"].name == "gr_black_hole_base_entity" then
+            if e["entity"].name == "gr_black_hole_base" then
                 gr_gui.add_black_hole_gui(e,false)
             end
         end
