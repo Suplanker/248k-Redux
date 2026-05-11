@@ -300,7 +300,7 @@ data:extend({
         results = {
             {type = "item", name = 'uranium-238', amount = 1*3},
             {type = "item", name = 'fi_waste', amount = 1*3},
-            {type = "item", name = "fi_empty_solution", amount = 1*3, probability = 0.95},
+            {type = "item", name = "fi_empty_solution", amount = 1, probability = 0.95},
         },
         --result_count = 3, Voy a multiplicar el resultado de cada receta por 3, luego cuando pueda compara el mod actualizado el original vere si la receta es igual o que cambia
         energy_required = 20,
@@ -322,7 +322,7 @@ data:extend({
         results = {
             {type = "item", name = 'uranium-238', amount = 1*3},
             {type = "item", name = 'fi_waste', amount = 1*3},
-            {type = "item", name = "fi_empty_solution", amount = 1*3, probability = 0.95},
+            {type = "item", name = "fi_empty_solution", amount = 1, probability = 0.95},
         },
         --result_count = 3, Voy a multiplicar el resultado de cada receta por 3, luego cuando pueda compara el mod actualizado el original vere si la receta es igual o que cambia
         energy_required = 20,
@@ -344,7 +344,7 @@ data:extend({
         results = {
             {type = "item", name = 'uranium-238', amount = 1*3},
             {type = "item", name = 'fi_waste', amount = 1*3},
-            {type="item", name="fi_empty_solution", amount=1*3, probability=0.95},
+            {type="item", name="fi_empty_solution", amount=1, probability=0.95},
         },
         --result_count = 3, Voy a multiplicar el resultado de cada receta por 3, luego cuando pueda compara el mod actualizado el original vere si la receta es igual o que cambia
         energy_required = 20,

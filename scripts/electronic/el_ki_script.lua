@@ -4,41 +4,6 @@ local gui = require('scripts/gui')
 --=================================================================================
 --init
 --=================================================================================
---[[
-function el_ki_init(e)
-    storage.ki = {}
-    storage.ki.dirty = false
-    storage.ki.total = 0
-    storage.ki.channel = {}
-    storage.ki.core = {}
-    storage.ki.beacon = {}
-    storage.ki.buffer1 = {}
-    storage.ki.buffer2 = {}
-    storage.ki.supported = 100
-    storage.ki.supported1 = false
-    storage.ki.supported2 = false
-    storage.ki.supported3 = false
-    storage.ki.supported4 = false
-
-    --base channel
-    storage.ki.channel[0] = {}
-    storage.ki.channel[0].beacons = {}
-    storage.ki.channel[0].core = {}
-    storage.ki.channel[0].buffer1 = {}
-    storage.ki.channel[0].buffer2 = {}
-
-    storage.ki.standardchannel = 0
-    storage.ki.selectchannel = 0
-
-    --gui stuff
-    storage.ki.gui = {}
-    storage.ki.gui.core = {}
-    storage.ki.gui.main = {}
-    storage.ki.gui.buffer1 = {}
-    storage.ki.gui.buffer2 = {}
-end
-]]
-
 function el_ki_init(e)
     storage.ki = {}
     storage.ki.dirty = false
@@ -78,62 +43,49 @@ end
 
 function el_ki_on_built(e)
     if e['created_entity'] then
-        if e['created_entity'].name == 'el_ki_core' then
-            make_ki_core(e['created_entity'])
-        end
-        if e['created_entity'].name == 'el_ki_beacon' then
-            make_ki_beacon(e['created_entity'])
-        end
+        if      e['created_entity'].name == 'el_ki_core'    then    make_ki_core(e['created_entity'])
 
-        if e['created_entity'].name == 'fi_ki_core' then
-            make_ki_buffer1(e['created_entity'])
+        elseif  e['created_entity'].name == 'el_ki_beacon'  then    make_ki_beacon(e['created_entity'])
+
+        elseif  e['created_entity'].name == 'fi_ki_core'    then    make_ki_buffer1(e['created_entity'])
+
+        elseif  e['created_entity'].name == 'fi_ki_beacon'  then    make_ki_beacon(e['created_entity'])
+
+        elseif  e['created_entity'].name == 'fu_ki_core'    then    make_ki_buffer2(e['created_entity'])
+
+        elseif  e['created_entity'].name == 'fu_ki_beacon'  then    make_ki_beacon(e['created_entity'])
+
+        elseif  e['created_entity'].name == "entity-ghost"  then    remove_request_ghost(e['created_entity'])
+
         end
-        if e['created_entity'].name == 'fi_ki_beacon' then
-            make_ki_beacon(e['created_entity'])
-        end
-        
-        if e['created_entity'].name == 'fu_ki_core' then
-            make_ki_buffer2(e['created_entity'])
-        end
-        if e['created_entity'].name == 'fu_ki_beacon' then
-            make_ki_beacon(e['created_entity'])
-        end
-    end
     
-    if e['entity'] then
-        if e['entity'].name == 'el_ki_core' then
-            make_ki_core(e['entity'])
-        end
-        if e['entity'].name == 'el_ki_beacon' then
-            make_ki_beacon(e['entity'])
-        end
+    elseif e['entity'] then
+        if      e['entity'].name == 'el_ki_core'    then    make_ki_core(e['entity'])
         
-        if e['entity'].name == 'fi_ki_core' then
-            make_ki_buffer1(e['entity'])
-        end
-        if e['entity'].name == 'fi_ki_beacon' then
-            make_ki_beacon(e['entity'])
-        end
+        elseif  e['entity'].name == 'el_ki_beacon'  then    make_ki_beacon(e['entity'])
         
-        if e['entity'].name == 'fu_ki_core' then
-            make_ki_buffer2(e['entity'])
-        end
-        if e['entity'].name == 'fu_ki_beacon' then
-            make_ki_beacon(e['entity'])
-        end
-    end    
+        elseif  e['entity'].name == 'fi_ki_core'    then    make_ki_buffer1(e['entity'])
+        
+        elseif  e['entity'].name == 'fi_ki_beacon'  then    make_ki_beacon(e['entity'])
+        
+        elseif  e['entity'].name == 'fu_ki_core'    then    make_ki_buffer2(e['entity'])
+        
+        elseif  e['entity'].name == 'fu_ki_beacon'  then    make_ki_beacon(e['entity'])
 
-    if e['entity'] then
-        if e['entity'].name == "entity-ghost" then
-            remove_request_ghost(e['entity'])
-        end     
+        elseif  e['entity'].name == "entity-ghost"  then    remove_request_ghost(e['entity'])
+
+        end
     end
 
-    if e['created_entity'] then
-        if e['created_entity'].name == "entity-ghost" then
-            remove_request_ghost(e['created_entity'])
+--[[
+    elseif e['entity'] then
+        if e['entity'].name == "entity-ghost"   then    remove_request_ghost(e['entity'])
         end
-    end
+
+    elseif e['created_entity'] then
+        if e['created_entity'].name == "entity-ghost"   then    remove_request_ghost(e['created_entity'])
+        end]]
+    --end
 end
 
 --=================================================================================
@@ -143,37 +95,41 @@ end
 function el_ki_on_remove(e)
     if e["entity"] then
         if e["entity"].name == "el_ki_core" then
-            if e["player_index"] then
-                destroy_ki_core(e["entity"],e["player_index"],nil)
-            elseif e["robot"] then
-                destroy_ki_core(e["entity"],nil,e["robot"])
-            else 
-                destroy_ki_core(e["entity"],nil,nil)
-            end
-        end
 
-        if e["entity"].name == "fi_ki_core" then
-            if e["player_index"] then
-                destroy_fi_core(e["entity"],e["player_index"],nil)
-            elseif e["robot"] then
-                destroy_fi_core(e["entity"],nil,e["robot"])
-            else 
-                destroy_fi_core(e["entity"],nil,nil)
+            if      e["player_index"]   then    destroy_ki_core(e["entity"],e["player_index"],nil)
+
+            elseif  e["robot"]          then    destroy_ki_core(e["entity"],nil,e["robot"])
+
+            else                                destroy_ki_core(e["entity"],nil,nil)
+
+            end
+
+        elseif e["entity"].name == "fi_ki_core" then
+
+            if      e["player_index"]   then    destroy_fi_core(e["entity"],e["player_index"],nil)
+
+            elseif  e["robot"]          then    destroy_fi_core(e["entity"],nil,e["robot"])
+
+            else                                destroy_fi_core(e["entity"],nil,nil)
+                
             end
         end
 
         if e["entity"].name == "fu_ki_core" then
-            if e["player_index"] then
-                destroy_fu_core(e["entity"],e["player_index"],nil)
-            elseif e["robot"] then
-                destroy_fu_core(e["entity"],nil,e["robot"])
-            else 
-                destroy_fu_core(e["entity"],nil,nil)
+
+            if      e["player_index"]   then    destroy_fu_core(e["entity"],e["player_index"],nil)
+
+            elseif  e["robot"]          then    destroy_fu_core(e["entity"],nil,e["robot"])
+
+            else                                destroy_fu_core(e["entity"],nil,nil)
+
             end
         end
 
         if (e["entity"].name == "el_ki_beacon") or (e["entity"].name == "fi_ki_beacon") or (e["entity"].name == "fu_ki_beacon") then
+
             destroy_ki_beacon(e["entity"])
+
         end
     end
 end
@@ -215,12 +171,13 @@ function make_ki_beacon(entity)
 end
 
 function destroy_ki_core(entity,player_index,robot) 
-    if not storage.ki.core[entity.unit_number] then
-        return
+
+    if      not     storage.ki.core[entity.unit_number]         then    return
+
+    elseif  not     storage.ki.core[entity.unit_number].slave   then    return
+
     end
-    if not storage.ki.core[entity.unit_number].slave then
-        return
-    end
+    
     destroy_slave_ki_core(entity,storage.ki.core[entity.unit_number].slave,player_index,robot)
     unregister_ki_core(entity)
     storage.ki.dirty = true
