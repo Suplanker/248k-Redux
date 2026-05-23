@@ -667,39 +667,41 @@ end --indent ignored
     
 ]]
 
-if mods["quality"] then
-local skip = {
-["kr-advanced-loader"] = true,
-["kr-imersium-plate"] = true,
-["kr-lithium-sulfur-battery"] = true,
-["chemical-science-pack"] = true,
-["production-science-pack"] = true,
-["utility-science-pack"] = true,
-["kr-singularity-tech-card"] = true,
-}
 
-local recycling = require("__quality__.prototypes.recycling")
 
-local to_regenerate = {}
+if mods["quality"] and settings.startup["overhaul_mode"].value then
+    local skip = {
+    ["kr-advanced-loader"] = true,
+    ["kr-imersium-plate"] = true,
+    ["kr-lithium-sulfur-battery"] = true,
+    ["chemical-science-pack"] = true,
+    ["production-science-pack"] = true,
+    ["utility-science-pack"] = true,
+    ["kr-singularity-tech-card"] = true,
+    }
 
-for _, entry in ipairs(building_table) do
-    local recipe_name = entry[1]
-    if not skip[recipe_name] then
-        table.insert(to_regenerate, recipe_name)
+    local recycling = require("__quality__.prototypes.recycling")
+
+    local to_regenerate = {}
+
+    for _, entry in ipairs(building_table) do
+        local recipe_name = entry[1]
+        if not skip[recipe_name] then
+            table.insert(to_regenerate, recipe_name)
+        end
     end
-end
 
-for _, entry in ipairs(item_table) do
-    local recipe_name = entry[1]
-    if not skip[recipe_name] then
-        table.insert(to_regenerate, recipe_name)
+    for _, entry in ipairs(item_table) do
+        local recipe_name = entry[1]
+        if not skip[recipe_name] then
+            table.insert(to_regenerate, recipe_name)
+        end
     end
-end
 
-for _, recipe_name in ipairs(to_regenerate) do
-    if data.raw.recipe[recipe_name] then
-        data.raw.recipe[recipe_name .. "-recycling"] = nil
-        recycling.generate_recycling_recipe(data.raw.recipe[recipe_name])
+    for _, recipe_name in ipairs(to_regenerate) do
+        if data.raw.recipe[recipe_name] then
+            data.raw.recipe[recipe_name .. "-recycling"] = nil
+            recycling.generate_recycling_recipe(data.raw.recipe[recipe_name])
+        end
     end
-end
 end

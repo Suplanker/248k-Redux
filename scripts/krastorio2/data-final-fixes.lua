@@ -377,6 +377,7 @@ table.insert(data.raw.technology["fu_ki_plus_2_tech"].unit.ingredients, {"fi_ki_
 table.insert(data.raw.technology["fu_ki_plus_2_tech"].unit.ingredients, {"fu_ki_science", 1})
 --]]
 
+
 table.insert(data.raw["generator-equipment"]["fi_train_equipment_generator"].categories,"kr-vehicle")
 
 if (config("krastorio_endgame")) then

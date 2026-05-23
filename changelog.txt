@@ -1,7 +1,13 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.38
-Date: 26.4.2030
+Version: 0.1.40
+Date: 16.5.2026
   Changes:
+    - Fix: fi_uranium233 wasn't on a tech
+---------------------------------------------------------------------------------------------------
+Version: 0.1.39
+Date: 10.5.2026
+  Changes:
+    - K2SO compat recycling bug fixed by gakm4
     - Fixed some fuel processing recipes that gives back three containers instead of one
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.37

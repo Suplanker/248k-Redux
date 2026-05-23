@@ -1228,6 +1228,10 @@ data:extend({
             },
             {
                 type = 'unlock-recipe',
+                recipe = 'fi_thorium232',
+            },
+            {
+                type = 'unlock-recipe',
                 recipe = 'fi_uranium233',
             },
             {
@@ -1237,7 +1241,7 @@ data:extend({
             {
                 type = 'unlock-recipe',
                 recipe = 'fi_basic_thorium_fuel',
-            },
+            }
         },
         unit = {
             count = 250,
