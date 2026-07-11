@@ -5,7 +5,7 @@ function gr_make_white_hole_recipe(item)
         enabled = true,
         hidden = true,
         allow_as_intermediate = false,
-        category = 'gr_white_hole_category',
+        categories = {'gr_white_hole_category'},
         auto_recycle = false,
         hidden_in_factoriopedia = true,
         ingredients = {

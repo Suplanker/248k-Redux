@@ -458,7 +458,7 @@ data:extend({
         name = 'fi_arc_glass',
         type = 'recipe',
         enabled = false,
-        category = 'el_arc_furnace_category',
+        categories = {'el_arc_furnace_category'},
         ingredients = {
             {type="item", name="kr-glass", amount=3},
             {type="item", name="kr-quartz", amount=1},
@@ -474,7 +474,7 @@ data:extend({
     {
         name = 'fu_activator_4_recipe',
         type = 'recipe',
-        category = 'chemistry',
+        categories = {'chemistry'},
         main_product = 'fu_tritium',
         enabled = false,
         ingredients = {
@@ -489,7 +489,7 @@ data:extend({
     {
         name = 'fu_activator_3_recipe',
         type = 'recipe',
-        category = 'chemistry',
+        categories = {'chemistry'},
         main_product = 'fu_deuterium',
         enabled = false,
         ingredients = {
@@ -505,7 +505,7 @@ data:extend({
     {
         name = 'fu_star_engine_cooler_7_recipe',
         type = 'recipe',
-        category = 'fu_star_engine_cooler_crafting_category',
+        categories = {'fu_star_engine_cooler_crafting_category'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_c',
         ingredients = {

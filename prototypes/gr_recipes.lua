@@ -22,7 +22,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_fusion_cell"},
         enabled = false,
-        category = 'fi_crafting_category',
+        categories = {'fi_crafting_category'},
         ingredients = {
             {type = 'item', name = 'fu_space_probe_up_matter', amount = 1},
             {type = 'item', name = 'fu_tech_sign', amount = 40},
@@ -67,7 +67,7 @@ data:extend({
         name = 'gr_wheel',
         type = 'recipe',
         localised_name = {"item-name.iron-gear-wheel"},
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -82,7 +82,7 @@ data:extend({
         name = 'gr_steel',
         type = 'recipe',
         localised_name = {"item-name.steel-plate"},
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -201,7 +201,7 @@ data:extend({
         name = 'gr_kovarex',
         type = 'recipe',
         localised_name = {"item-name.fu_space_probe_up_matter"},
-        category = 'centrifuging',
+        categories = {'centrifuging'},
         enabled = false,
         main_product = 'fu_space_probe_up_matter',
         ingredients = {
@@ -218,7 +218,7 @@ data:extend({
         name = 'gr_kovarex_2',
         type = 'recipe',
         localised_name = {"item-name.fu_space_probe_down_matter"},
-        category = 'centrifuging',
+        categories = {'centrifuging'},
         enabled = false,
         main_product = 'fu_space_probe_down_matter',
         ingredients = {
@@ -256,7 +256,7 @@ data:extend({
         name = 'gr_stabilizer',
         type = 'recipe',
         localised_name = {"item-name.gr_stabilizer"},
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         enabled = false,
         main_product = 'gr_stabilizer',
         allow_productivity = true,
@@ -276,7 +276,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_crushed_exotic"},
         enabled = false,
-        category = 'fi_crushing',
+        categories = {'fi_crushing'},
         allow_productivity = true,
         ingredients = {
             {type = 'item', name = 'fu_space_probe_ore', amount = 1},
@@ -352,7 +352,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_red_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'automation-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -368,7 +368,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_red"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_red_data', amount = 36},
         },
@@ -385,7 +385,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_green_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'logistic-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -401,7 +401,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_green"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_green_data', amount = 72},
             {type = 'item', name = 'gr_red', amount = 2},
@@ -419,7 +419,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_blue_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'chemical-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -435,7 +435,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_blue"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_blue_data', amount = 155},
             {type = 'item', name = 'gr_green', amount = 2},
@@ -453,7 +453,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_purple_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'production-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -469,7 +469,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_purple"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_purple_data', amount = 310},
             {type = 'item', name = 'gr_blue', amount = 2},
@@ -487,7 +487,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_yellow_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'utility-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -503,7 +503,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_yellow"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_yellow_data', amount = 620},
             {type = 'item', name = 'gr_purple', amount = 2},
@@ -522,7 +522,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_grey_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'space-science-pack', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -538,7 +538,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_grey"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_grey_data', amount = 1240},
             {type = 'item', name = 'gr_yellow', amount = 2},
@@ -556,7 +556,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_white_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'fu_space_probe_science', amount = 100},
             {type = 'item', name = 'gr_data', amount = 1},
@@ -572,7 +572,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_white"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         ingredients = {
             {type = 'item', name = 'gr_white_data', amount = 2480},
             {type = 'item', name = 'gr_grey', amount = 2},
@@ -595,7 +595,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         allow_productivity = true,
         ingredients = {
             {type = 'item', name = 'gr_crushed_exotic', amount = 1},
@@ -614,7 +614,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_stacked_data"},
         enabled = false,
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         allow_productivity = true,
         ingredients = {
             {type = 'item', name = 'gr_data', amount = 3},
@@ -633,7 +633,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_red_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'automation-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -649,7 +649,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_green_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'logistic-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -665,7 +665,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_blue_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'chemical-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -681,7 +681,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_purple_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'production-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -697,7 +697,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_yellow_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'utility-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -713,7 +713,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_grey_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'space-science-pack', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -729,7 +729,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_white_pack"},
         enabled = false,
-        category = 'gr_charger_category',
+        categories = {'gr_charger_category'},
         ingredients = {
             {type = 'item', name = 'fu_space_probe_science', amount = 100},
             {type = 'item', name = 'gr_stacked_data', amount = 1},
@@ -775,7 +775,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_circuit"},
         enabled = false,
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         main_product = 'gr_circuit',
         allow_productivity = true,
         ingredients = {
@@ -811,7 +811,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_pcb"},
         enabled = false,
-        category = 'chemistry',
+        categories = {'chemistry'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="petroleum-gas", amount=30},
@@ -832,7 +832,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_magnet"},
         enabled = false,
-        category = 'fu_magnet_category',
+        categories = {'fu_magnet_category'},
         main_product = 'gr_magnet',
         ingredients = {
             {type="fluid", name="fu_lead_fluid_cold", amount=10},
@@ -852,7 +852,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.gr_plasma_cube"},
         enabled = false,
-        category = 'fu_plasma_category',
+        categories = {'fu_plasma_category'},
         main_product = 'gr_plasma_cube',
         ingredients = {
             {type="fluid", name="fu_lead_fluid_cold", amount=10},

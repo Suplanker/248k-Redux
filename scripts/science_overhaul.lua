@@ -8,8 +8,12 @@ end
 
 local function retexture_science(table_in)
     for i,v in ipairs(table_in) do
-        data.raw.tool[v[1]].icon_size = 64
-        data.raw.tool[v[1]].icon = sprite(v[2])
+        log("==== " .. v[1] .. " ====")
+        log(serpent.block(data.raw.item["automation-science-pack"]))
+        log(serpent.block(data.raw.tool[v[1]]))
+        log(serpent.block(data.raw.technology[v[1]]))
+        data.raw.item[v[1]].icon_size = 64
+        data.raw.item[v[1]].icon = sprite(v[2])
 
         data.raw.technology[v[1]].icon_size = 128
         data.raw.technology[v[1]].icon = sprite(v[2].."_tech")
@@ -21,6 +25,7 @@ end
 --===================================================================================================================
 
 retexture_table = {
+    {"automation-science-pack", "red_science"},
     {"logistic-science-pack", "green_science"},
     {"chemical-science-pack", "blue_science"},
     {"military-science-pack", "grey_science"},
@@ -40,7 +45,7 @@ if settings.startup['retexture_science'].value then
     if not mods["Krastorio2"] then
         retexture_science(retexture_table)
 
-        data.raw.tool["automation-science-pack"].icon = sprite("red_science")
+        data.raw.item["automation-science-pack"].icon = sprite("red_science")
         data.raw.tool["fu_space_probe_science"].icon = sprite("exotic_science")
     end
 

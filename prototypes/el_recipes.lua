@@ -35,7 +35,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.battery"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         subgroup = 'el_item_subgroup_b',
         allow_productivity = true,
         ingredients = {
@@ -56,7 +56,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_lithium_battery"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         allow_productivity = true,
         ingredients = {
             {type = "item",name = 'el_lithium',amount = 4},
@@ -74,7 +74,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_burner"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = "item",name = 'iron-gear-wheel',amount = 40},
             {type = "item",name = 'steel-plate',amount = 15},
@@ -89,7 +89,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_burner_kerosene"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'el_burner', amount = 1},
             {type = 'item', name = 'pipe', amount = 20},
@@ -106,7 +106,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_water_generator"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 60},
             {type = 'item', name = 'engine-unit', amount = 15},
@@ -126,7 +126,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_pressurizer"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 20},
             {type = 'item', name = 'pipe', amount = 15},
@@ -144,7 +144,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_pressurized_water"},
         enabled = false,
-        category = 'el_special_fluid',
+        categories = {'el_special_fluid'},
         icon = sprite('fluids/el_pressurized_water.png'),
         icon_size = 64,
         main_product = 'el_pressurized_water',
@@ -164,7 +164,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_diesel_train"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'locomotive', amount = 1},
             {type = 'item', name = 'engine-unit', amount = 15},
@@ -183,7 +183,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_kerosene"},
         enabled = false,
-        category = 'oil-processing',
+        categories = {'oil-processing'},
         main_product = 'el_kerosene',
         allow_productivity = true,
         ingredients = {
@@ -211,7 +211,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_tank"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'storage-tank', amount = 4},
             {type = 'item', name = 'steel-plate', amount = 50},
@@ -228,7 +228,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_desulfurized_kerosene"},
         enabled = false,
-        category = 'chemistry',
+        categories = {'chemistry'},
         main_product = 'el_desulfurized_kerosene',
         allow_productivity = true,
         ingredients = {
@@ -246,7 +246,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.sulfuric-acid"},
         enabled = false,
-        category = 'chemistry',
+        categories = {'chemistry'},
         subgroup = 'el_item_subgroup_e',
         main_product = 'sulfuric-acid',
         allow_productivity = true,
@@ -266,7 +266,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_train_fuel_diesel"},
         enabled = false,
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         subgroup = 'el_item_subgroup_d',
         main_product = 'el_train_fuel_diesel',
         allow_productivity = true,
@@ -284,7 +284,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"equipment-name.el_train_equipment_generator"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         subgroup = 'el_item_subgroup_d',
         ingredients = {
             {type="item", name="el_lithium_battery", amount=10},
@@ -302,7 +302,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"equipment-name.el_train_equipment_accelerator"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         subgroup = 'el_item_subgroup_d',
         ingredients = {
             {type="item", name="pump", amount=5},
@@ -320,7 +320,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_energy_crystal"},
         enabled = false,
-        category = 'el_grower_category',
+        categories = {'el_grower_category'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="el_energy_crystal", amount=1},
@@ -338,7 +338,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_train_fuel_diesel_energized"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="el_train_fuel_diesel", amount=4},
@@ -355,7 +355,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_ki_beacon"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=20},
             {type="item", name="el_ALK", amount=10},
@@ -371,7 +371,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fi_ki_beacon"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=20},
             {type="item", name="fi_neodym", amount=5},
@@ -388,7 +388,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fu_ki_beacon"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="fu_KFK", amount=20},
             {type="item", name="fu_tech_sign", amount=20},
@@ -406,7 +406,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_ki_core"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=100},
             {type="item", name="concrete", amount=500},
@@ -429,7 +429,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fi_ki_core"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="fi_crafter", amount=10},
             {type="item", name="fi_neodym", amount=100},
@@ -450,7 +450,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fu_ki_core"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="fu_KFK", amount=100},
             {type="item", name="concrete", amount=500},
@@ -475,7 +475,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_ki_memory"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=40},
             {type="item", name="concrete", amount=60},
@@ -492,7 +492,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fi_ki_circuit"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="fi_neodym", amount=20},
             {type="item", name="concrete", amount=120},
@@ -509,7 +509,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.fu_ki_circuit"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="fu_KFK", amount=40},
             {type="item", name="concrete", amount=120},
@@ -529,7 +529,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_memory_fluid"},
         enabled = false,
-        category = 'el_ki_memory_category',
+        categories = {'el_ki_memory_category'},
         main_product = 'el_ki_memory_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -558,7 +558,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_memory_fluid"},
         enabled = false,
-        category = 'el_ki_memory_category',
+        categories = {'el_ki_memory_category'},
         main_product = 'el_ki_memory_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -587,7 +587,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_memory_fluid"},
         enabled = false,
-        category = 'el_ki_memory_category',
+        categories = {'el_ki_memory_category'},
         main_product = 'el_ki_memory_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -616,7 +616,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_memory_fluid"},
         enabled = false,
-        category = 'el_ki_memory_category',
+        categories = {'el_ki_memory_category'},
         main_product = 'el_ki_memory_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -644,7 +644,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fu_ki_circuit_fluid"},
         enabled = false,
-        category = 'fu_ki_circuit_category',
+        categories = {'fu_ki_circuit_category'},
         main_product = 'fu_ki_circuit_fluid',
         ingredients = {
             {type="item", name="fu_tech_sign", amount=8},
@@ -670,7 +670,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fu_ki_circuit_fluid"},
         enabled = false,
-        category = 'fu_ki_circuit_category',
+        categories = {'fu_ki_circuit_category'},
         main_product = 'fu_ki_circuit_fluid',
         ingredients = {
             {type="item", name="fu_tech_sign", amount=4},
@@ -696,7 +696,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fu_ki_circuit_fluid"},
         enabled = false,
-        category = 'fu_ki_circuit_category',
+        categories = {'fu_ki_circuit_category'},
         main_product = 'fu_ki_circuit_fluid',
         ingredients = {
             {type="item", name="fu_tech_sign", amount=4},
@@ -721,7 +721,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fu_ki_circuit_fluid"},
         enabled = false,
-        category = 'fu_ki_circuit_category',
+        categories = {'fu_ki_circuit_category'},
         main_product = 'fu_ki_circuit_fluid',
         ingredients = {
             {type="item", name="fu_tech_sign", amount=3},
@@ -746,7 +746,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fi_ki_circuit_fluid"},
         enabled = false,
-        category = 'fi_ki_circuit_category',
+        categories = {'fi_ki_circuit_category'},
         main_product = 'fi_ki_circuit_fluid',
         ingredients = {
             {type="item", name="uranium-238", amount=6},
@@ -772,7 +772,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fi_ki_circuit_fluid"},
         enabled = false,
-        category = 'fi_ki_circuit_category',
+        categories = {'fi_ki_circuit_category'},
         main_product = 'fi_ki_circuit_fluid',
         ingredients = {
             {type="item", name="uranium-238", amount=4},
@@ -798,7 +798,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fi_ki_circuit_fluid"},
         enabled = false,
-        category = 'fi_ki_circuit_category',
+        categories = {'fi_ki_circuit_category'},
         main_product = 'fi_ki_circuit_fluid',
         ingredients = {
             {type="item", name="uranium-238", amount=4},
@@ -823,7 +823,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.fi_ki_circuit_fluid"},
         enabled = false,
-        category = 'fi_ki_circuit_category',
+        categories = {'fi_ki_circuit_category'},
         main_product = 'fi_ki_circuit_fluid',
         ingredients = {
             {type="item", name="uranium-ore", amount=10},
@@ -848,7 +848,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_ki_cpu"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=40},
             {type="item", name="concrete", amount=60},
@@ -866,7 +866,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
-        category = 'el_ki_cpu_category',
+        categories = {'el_ki_cpu_category'},
         main_product = 'el_ki_cpu_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -895,7 +895,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
-        category = 'el_ki_cpu_category',
+        categories = {'el_ki_cpu_category'},
         main_product = 'el_ki_cpu_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -924,7 +924,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
-        category = 'el_ki_cpu_category',
+        categories = {'el_ki_cpu_category'},
         main_product = 'el_ki_cpu_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -953,7 +953,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
-        category = 'el_ki_cpu_category',
+        categories = {'el_ki_cpu_category'},
         main_product = 'el_ki_cpu_fluid',
         ingredients = {
             --{type="fluid", name="water", amount=480},
@@ -983,7 +983,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
-        category = 'el_ki_core_category',
+        categories = {'el_ki_core_category'},
         icon = sprite('fluids/el_pressurized_water.png'),
         icon_size = 64,
         subgroup = 'el_item_subgroup_f',
@@ -999,7 +999,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.fi_ki_science"},
         enabled = false,
-        category = 'fi_ki_core_category',
+        categories = {'fi_ki_core_category'},
         ingredients = {
             {type="fluid", name="el_ki_cpu_fluid", amount=550*3},
             {type="fluid", name="el_ki_memory_fluid", amount=550*3},
@@ -1016,7 +1016,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.fu_ki_science"},
         enabled = false,
-        category = 'fu_ki_core_category',
+        categories = {'fu_ki_core_category'},
         ingredients = {
             {type="fluid", name="el_ki_cpu_fluid", amount=550*3},
             {type="fluid", name="el_ki_memory_fluid", amount=550*3},
@@ -1034,7 +1034,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_arc_furnace"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 40},
             {type = 'item', name = 'steel-plate', amount = 25},
@@ -1050,7 +1050,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_caster"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 40},
             {type = 'item', name = 'steel-plate', amount = 25},
@@ -1066,7 +1066,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_purifier"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 40},
             {type = 'item', name = 'steel-plate', amount = 15},
@@ -1082,7 +1082,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_grower"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 40},
             {type = 'item', name = 'steel-plate', amount = 15},
@@ -1100,7 +1100,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_pure_aluminum"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_dirty_water',
         ingredients = {
             {type="fluid", name="water", amount=100},
@@ -1129,7 +1129,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_pure_aluminum"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_dirty_water',
         ingredients = {
             {type="fluid", name="water", amount=100},
@@ -1158,7 +1158,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_pure_iron"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_dirty_water',
         ingredients = {
             {type="fluid", name="water", amount=50},
@@ -1187,7 +1187,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_pure_copper"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_dirty_water',
         ingredients = {
             {type="fluid", name="water", amount=50},
@@ -1215,7 +1215,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_energy_crystal"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_energy_crystal',
         ingredients = {
             {type="fluid", name="el_acidic_water", amount=200},
@@ -1237,7 +1237,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.uranium-235"},
         enabled = false,
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         main_product = 'el_energy_crystal',
         ingredients = {
             {type="fluid", name="el_acidic_water", amount=1000},
@@ -1261,7 +1261,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_aluminum"},
         enabled = false,
-        category = 'smelting',
+        categories = {'smelting'},
         allow_productivity = true,
         ingredients = {
             {type = "item", name = 'el_aluminum_ore',amount = 2},
@@ -1278,7 +1278,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_lithium"},
         enabled = false,
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         main_product = 'el_lithium',
         ingredients = {
             {type="fluid", name="el_dirty_water", amount=50},
@@ -1295,7 +1295,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_arc_pure_iron"},
         enabled = false,
-        category = 'el_arc_furnace_category',
+        categories = {'el_arc_furnace_category'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="el_pure_iron", amount=1},
@@ -1312,7 +1312,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.iron-plate"},
         enabled = false,
-        category = 'el_caster_category',
+        categories = {'el_caster_category'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="el_arc_pure_iron", amount=100},
@@ -1330,7 +1330,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.steel-plate"},
         enabled = false,
-        category = 'el_caster_category',
+        categories = {'el_caster_category'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="el_arc_pure_iron", amount=500},
@@ -1348,7 +1348,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_arc_pure_copper"},
         enabled = false,
-        category = 'el_arc_furnace_category',
+        categories = {'el_arc_furnace_category'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="el_pure_copper", amount=1},
@@ -1365,7 +1365,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.copper-plate"},
         enabled = false,
-        category = 'el_caster_category',
+        categories = {'el_caster_category'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="el_arc_pure_copper", amount=100},
@@ -1383,7 +1383,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_arc_pure_aluminum"},
         enabled = false,
-        category = 'el_arc_furnace_category',
+        categories = {'el_arc_furnace_category'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="el_pure_aluminum", amount=1},
@@ -1400,7 +1400,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_aluminum"},
         enabled = false,
-        category = 'el_caster_category',
+        categories = {'el_caster_category'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="el_arc_pure_aluminum", amount=100},
@@ -1418,7 +1418,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_ceramic"},
         enabled = false,
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         allow_productivity = true,
         ingredients = {
             {type="fluid", name="steam", amount=30},
@@ -1435,7 +1435,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_ceramic"},
         enabled = false,
-        category = 'el_arc_furnace_category',
+        categories = {'el_arc_furnace_category'},
         allow_productivity = true,
         ingredients = {
             {type="item", name="stone", amount=4},
@@ -1470,7 +1470,7 @@ data:extend({
         localised_name = {"fluid-name.water"},
         enabled = false,
         subgroup = 'el_item_subgroup_a',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         ingredients = {
             {type="fluid", name="el_dirty_water", amount=100},
         },
@@ -1486,7 +1486,7 @@ data:extend({
         localised_name = {"fluid-name.water"},
         enabled = false,
         subgroup = 'el_item_subgroup_a',
-        category = 'el_purifier_category',
+        categories = {'el_purifier_category'},
         ingredients = {
             {type="fluid", name="el_dirty_water", amount=100},
         },
@@ -1502,7 +1502,7 @@ data:extend({
         localised_name = {"item-name.landfill"},
         enabled = false,
         subgroup = 'el_item_subgroup_a',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         ingredients = {
             {type="fluid", name="el_dirty_water", amount=10000},
         },
@@ -1517,7 +1517,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"fluid-name.el_kerosene"},
         enabled = false,
-        category = 'oil-processing',
+        categories = {'oil-processing'},
         main_product = 'el_kerosene',
         allow_productivity = true,
         ingredients = {
@@ -1544,7 +1544,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"entity-name.el_charger"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type = 'item', name = 'iron-gear-wheel', amount = 40},
             {type = 'item', name = 'steel-plate', amount = 25},
@@ -1560,7 +1560,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_energy_crystal_charged"},
         enabled = false,
-        category = 'el_charger_category',
+        categories = {'el_charger_category'},
         allow_productivity = true,
         ingredients = {
             {type='item', name='el_energy_crystal', amount=1},
@@ -1576,7 +1576,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"item-name.el_grenade"},
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         main_product = 'el_grenade',
         ingredients = {
             {type="item", name="el_energy_crystal_charged", amount=1},

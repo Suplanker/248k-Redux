@@ -289,7 +289,7 @@ data:extend({
         name = 'fi_test_fuel_recipe',
         type = 'recipe',
         enabled = 'false',
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {'uranium-238',2},
             {'el_ALK',5},
@@ -303,7 +303,7 @@ data:extend({
         name = 'fi_tech_fuel_recipe',
         type = 'recipe',
         enabled = 'false',
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {'fi_test_used_fuel', 1},
             {'chemical-science-pack', 2},

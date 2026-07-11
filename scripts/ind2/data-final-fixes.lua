@@ -28,7 +28,7 @@ data:extend({
     {
         name = 'gr_stainless_steel_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -43,7 +43,7 @@ data:extend({
     {
         name = 'gr_invar_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -58,7 +58,7 @@ data:extend({
     {
         name = 'gr_nickel_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -73,7 +73,7 @@ data:extend({
     {
         name = 'gr_chrome_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -88,7 +88,7 @@ data:extend({
     {
         name = 'gr_gold_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {
@@ -103,7 +103,7 @@ data:extend({
     {
         name = 'gr_tellerium_recipe',
         type = 'recipe',
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         enabled = 'false',
         subgroup = 'fu_star_engine_subgroup_e',
         ingredients = {

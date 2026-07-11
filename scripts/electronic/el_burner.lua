@@ -3,7 +3,7 @@ function make_burner_recipe(item)
     local blank = {
         name = 'fu_burn_oxygen',
         type = 'recipe',
-        category = 'fu_burner_category',
+        categories = {'fu_burner_category'},
         icon = '__248k-Redux-graphics__/ressources/elements/fu_oxygen.png',
         icon_size = 64,
         enabled = true,

@@ -59,7 +59,7 @@ data:extend({
     {
         name = 'fu_fusion_card_3_recipe',
         type = 'recipe',
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         enabled = 'false',
         ingredients = {
             {type="fluid", name="fu_lithium_6", amount=100},
@@ -73,7 +73,7 @@ data:extend({
     {
         name = 'fu_fusion_card_6_recipe',
         type = 'recipe',
-        category = 'fu_fusor_crafting_category',
+        categories = {'fu_fusor_crafting_category'},
         enabled = 'false',
         ingredients = {
             {type="fluid", name="fu_deuterium", amount=100},

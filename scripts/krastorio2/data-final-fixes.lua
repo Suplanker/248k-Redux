@@ -22,7 +22,7 @@ data:extend({
     {
         name = 'fu_charger_hydrogen_oxygen',
         type = 'recipe',
-        category = 'el_charger_category',
+        categories = {'el_charger_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -32,7 +32,7 @@ data:extend({
         results = {
             {type="fluid", name="kr-hydrogen", amount=100},
             {type="fluid", name="kr-oxygen", amount=50},
-            {type="item", name="fi_gold", amount=1, probability=0.25},
+            {type="item", name="fi_gold", amount=1, independent_probability=0.25},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -42,7 +42,7 @@ data:extend({
     {
         name = 'fu_charger_hydrogen_oxygen_1',
         type = 'recipe',
-        category = 'el_charger_category',
+        categories = {'el_charger_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -52,7 +52,7 @@ data:extend({
         results = {
             {type="fluid", name="kr-hydrogen", amount=200},
             {type="fluid", name="kr-oxygen", amount=100},
-            {type="item", name="fi_gold", amount=1, probability=0.55},
+            {type="item", name="fi_gold", amount=1, independent_probability=0.55},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -62,7 +62,7 @@ data:extend({
     {
         name = 'fu_charger_hydrogen_oxygen_2',
         type = 'recipe',
-        category = 'el_charger_category',
+        categories = {'el_charger_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -72,7 +72,7 @@ data:extend({
         results = {
             {type="fluid", name="kr-hydrogen", amount=500},
             {type="fluid", name="kr-oxygen", amount=150},
-            {type="item", name="fi_gold", amount=1, probability=0.85},
+            {type="item", name="fi_gold", amount=1, independent_probability=0.85},
         },
         energy_required = 5,
         subgroup = 'fu_item_subgroup_e',
@@ -82,7 +82,7 @@ data:extend({
     {
         name = 'fu_charger_hydrogen_oxygen_3',
         type = 'recipe',
-        category = 'el_charger_category',
+        categories = {'el_charger_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -99,7 +99,7 @@ data:extend({
     {
         name = 'fu_boiler_hydrogen_oxygen_3',
         type = 'recipe',
-        category = 'fu_boiler_crafting_category',
+        categories = {'fu_boiler_crafting_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -116,7 +116,7 @@ data:extend({
     {
         name = 'fu_boiler_hydrogen_oxygen',
         type = 'recipe',
-        category = 'fu_boiler_crafting_category',
+        categories = {'fu_boiler_crafting_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -134,7 +134,7 @@ data:extend({
     {
         name = 'fu_boiler_hydrogen_oxygen_1',
         type = 'recipe',
-        category = 'fu_boiler_crafting_category',
+        categories = {'fu_boiler_crafting_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -152,7 +152,7 @@ data:extend({
     {
         name = 'fu_boiler_hydrogen_oxygen_2',
         type = 'recipe',
-        category = 'fu_boiler_crafting_category',
+        categories = {'fu_boiler_crafting_category'},
         main_product = 'kr-hydrogen',
         enabled = false,
         ingredients = {
@@ -170,7 +170,7 @@ data:extend({
     {
         name = 'fu_hydrogen',
         type = 'recipe',
-        category = 'oil-processing',
+        categories = {'oil-processing'},
         main_product = 'fu_protium',
         enabled = false,
         ingredients = {
@@ -187,7 +187,7 @@ data:extend({
     {
         name = 'fu_exchanger_1',
         type = 'recipe',
-        category = 'fu_exchanger_crafting_category',
+        categories = {'fu_exchanger_crafting_category'},
         main_product = 'steam',
         enabled = false,
         ingredients = {
@@ -206,7 +206,7 @@ data:extend({
     {
         name = 'fu_exchanger_2',
         type = 'recipe',
-        category = 'fu_exchanger_crafting_category',
+        categories = {'fu_exchanger_crafting_category'},
         main_product = 'steam',
         enabled = false,
         ingredients = {
@@ -225,7 +225,7 @@ data:extend({
     {
         name = 'fu_star_engine_cooler_7_recipe',
         type = 'recipe',
-        category = 'fu_star_engine_cooler_crafting_category',
+        categories = {'fu_star_engine_cooler_crafting_category'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_c',
         ingredients = {
@@ -239,7 +239,7 @@ data:extend({
     {
         name = 'fu_activator_3_recipe',
         type = 'recipe',
-        category = 'chemistry',
+        categories = {'chemistry'},
         main_product = 'fu_deuterium',
         enabled = false,
         ingredients = {
@@ -254,7 +254,7 @@ data:extend({
     {
         name = 'fu_activator_4_recipe',
         type = 'recipe',
-        category = 'chemistry',
+        categories = {'chemistry'},
         main_product = 'fu_tritium',
         enabled = false,
         ingredients = {
@@ -270,7 +270,7 @@ data:extend({
         name = 'fu_ki_core',
         type = 'recipe',
         enabled = false,
-        category = 'crafting',
+        categories = {'crafting'},
         ingredients = {
             {type="item", name="steel-plate", amount=100},
             {type="item", name="concrete", amount=500},
@@ -311,7 +311,7 @@ data:extend({
         name = 'el_ceramic',
         type = 'recipe',
         enabled = false,
-        category = 'crafting-with-fluid',
+        categories = {'crafting-with-fluid'},
         ingredients = {
             {type="fluid", name="steam", amount=10},
             {type="item", name="stone", amount=2},
