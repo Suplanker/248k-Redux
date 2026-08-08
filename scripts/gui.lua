@@ -309,7 +309,7 @@ function gui.add_buffer1_gui(e,update)
         type = "slider",
         name = "main248kbuffer1channelslider",
         value = channel,
-        minimum_value = 1,
+        minimum_value = 0,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })
@@ -399,7 +399,7 @@ function gui.add_buffer2_gui(e,update)
         type = "slider",
         name = "main248kbuffer2channelslider",
         value = channel,
-        minimum_value = 1,
+        minimum_value = 0,
         maximum_value = #storage.ki.channel + 1,
         style = "notched_slider"
     })

@@ -163,7 +163,7 @@ data:extend({
         name            = 'kill-All-Other-Menu-Simulations',
         type            = 'bool-setting',
         setting_type    = 'startup',
-        default_value   = true,
+        default_value   = false,
         order           = 'i-d',
     },
 })
