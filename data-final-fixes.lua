@@ -25,7 +25,7 @@ if mods["space-exploration"] then
     require('scripts/SE/data-final-fixes')
 end
 --overhaul with realistic reactors
-if mods["RealisticReactors"] then
+if mods["RealisticReactors"] or mods["RealisticReactorRebornPort"] then
     for i,v in ipairs(data.raw.technology["nuclear-power"].prerequisites) do
         if v == "effectivity-module-2" then data.raw.technology["nuclear-power"].prerequisites[i] = nil end
     end
