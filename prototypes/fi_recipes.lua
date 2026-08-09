@@ -3,9 +3,7 @@ local function config(name)
     return settings.startup['el_solar_'..name].value
 end
 
-local function sprite(name)
-    return '__248k-Redux-graphics__/ressources/'..name
-end
+local utils = require("utils")
 
 data:extend({
     --crafter
@@ -293,6 +291,10 @@ data:extend({
         enabled = false,
         main_product = 'uranium-238',
         categories = {'centrifuging'},
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_fuel/fi_fuel_used_advanced_item.png'),
+            top_left = "__base__/graphics/icons/uranium-238.png",
+        }),
         ingredients = {
             {type = "item", name = 'fi_used_advanced_fuel', amount = 4},
             {type = "item", name = "fi_solution", amount = 1},
@@ -315,6 +317,10 @@ data:extend({
         enabled = false,
         categories = {'centrifuging'},
         main_product = 'uranium-238',
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_fuel/fi_fuel_used_advanced_thorium_item.png'),
+            top_left = "__base__/graphics/icons/uranium-238.png",
+        }),
         ingredients = {
             {type = "item", name = 'fi_used_advanced_thorium_fuel', amount = 4},
             {type = "item", name = "fi_solution", amount = 1},
@@ -337,6 +343,10 @@ data:extend({
         enabled = false,
         categories = {'centrifuging'},
         main_product = 'uranium-238',
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_fuel/fi_fuel_used_pure_item.png'),
+            top_left = "__base__/graphics/icons/uranium-238.png",
+        }),
         ingredients = {
             {type = "item", name = 'fi_used_pure_fuel', amount = 4},
             {type = "item", name = "fi_solution", amount = 1},
@@ -983,10 +993,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_dirty_water.png"
+                icon = utils.sprite('fluids/fi_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_stone.png"
+                icon = utils.sprite('icons/overlay_stone.png')
             }
         },
         subgroup = 'fi_item_subgroup_f',
@@ -1015,10 +1025,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_dirty_water.png"
+                icon = utils.sprite('fluids/fi_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_iron.png"
+                icon = utils.sprite('icons/overlay_iron.png')
             }
         },
         subgroup = 'fi_item_subgroup_f',
@@ -1047,10 +1057,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_dirty_water.png"
+                icon = utils.sprite('fluids/fi_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_copper.png"
+                icon = utils.sprite('icons/overlay_copper.png')
             }
         },
         subgroup = 'fi_item_subgroup_f',
@@ -1080,10 +1090,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_dirty_water.png"
+                icon = utils.sprite('fluids/fi_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_uranium.png"
+                icon = utils.sprite('icons/overlay_uranium.png')
             }
         },
         subgroup = 'fi_item_subgroup_f',
@@ -1311,7 +1321,7 @@ data:extend({
         localised_name = {"recipe-name.fi_decay_waste"},
         enabled = false,
         categories = {'fi_castor_category'},
-        icon = sprite('fission/fi_materials/fi_materials_waste.png'),
+        icon = utils.sprite('fission/fi_materials/fi_materials_waste.png'),
         icon_size = 64,
         subgroup = 'fi_item_subgroup_a',
         ingredients = {
@@ -1430,7 +1440,7 @@ data:extend({
         localised_name = {"recipe-name.fi_refinery_basic"},
         enabled = false,
         categories = {'fi_refining'},
-        icon = sprite('icons/fi_refining_basic.png'),
+        icon = utils.sprite('icons/fi_refining_basic.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1454,7 +1464,7 @@ data:extend({
         localised_name = {"recipe-name.fi_refinery_coal"},
         enabled = false,
         categories = {'fi_refining'},
-        icon = sprite('icons/fi_refining_coal.png'),
+        icon = utils.sprite('icons/fi_refining_coal.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1479,7 +1489,7 @@ data:extend({
         localised_name = {"recipe-name.fi_refinery_sulfur"},
         enabled = false,
         categories = {'fi_refining'},
-        icon = sprite('icons/fi_refining_sulfur.png'),
+        icon = utils.sprite('icons/fi_refining_sulfur.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1546,7 +1556,7 @@ data:extend({
         localised_name = {"recipe-name.fi_refinery_kerosene"},
         enabled = false,
         categories = {'fi_refining'},
-        icon = sprite('icons/fi_cracking_kerosene.png'),
+        icon = utils.sprite('icons/fi_cracking_kerosene.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1568,7 +1578,7 @@ data:extend({
         localised_name = {"recipe-name.fi_refinery_kerosene_coal"},
         enabled = false,
         categories = {'fi_refining'},
-        icon = sprite('icons/fi_cracking_kerosene_coal.png'),
+        icon = utils.sprite('icons/fi_cracking_kerosene_coal.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1642,7 +1652,7 @@ data:extend({
         enabled = false,
         categories = {'chemistry'},
         main_product = 'solid-fuel',
-        icon = sprite('icons/fi_solid_2.png'),
+        icon = utils.sprite('icons/fi_solid_2.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1662,7 +1672,7 @@ data:extend({
         enabled = false,
         categories = {'chemistry'},
         main_product = 'solid-fuel',
-        icon = sprite('icons/fi_solid_1.png'),
+        icon = utils.sprite('icons/fi_solid_1.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1682,7 +1692,7 @@ data:extend({
         enabled = false,
         categories = {'chemistry'},
         main_product = 'rocket-fuel',
-        icon = sprite('icons/fi_rocket_1.png'),
+        icon = utils.sprite('icons/fi_rocket_1.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1703,7 +1713,7 @@ data:extend({
         enabled = false,
         categories = {'chemistry'},
         main_product = 'rocket-fuel',
-        icon = sprite('icons/fi_rocket_2.png'),
+        icon = utils.sprite('icons/fi_rocket_2.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {
@@ -1724,7 +1734,7 @@ data:extend({
         enabled = false,
         categories = {'chemistry'},
         main_product = 'rocket-fuel',
-        icon = sprite('icons/fi_rocket_2.png'),
+        icon = utils.sprite('icons/fi_rocket_2.png'),
         icon_size = 64,
         allow_productivity = true,
         ingredients = {

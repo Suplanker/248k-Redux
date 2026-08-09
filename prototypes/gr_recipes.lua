@@ -1,3 +1,5 @@
+local utils = require("utils")
+
 data:extend({
     --crafter
     {
@@ -70,6 +72,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_e',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/iron-gear-wheel.png',
+            top_left = utils.sprite("elements/fu_iron.png")
+        }),
         ingredients = {
             {type="fluid", name="fu_iron", amount=500},
         },
@@ -85,6 +91,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_e',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/steel-plate.png',
+            top_left = utils.sprite("elements/fu_iron.png")
+        }),
         ingredients = {
             {type="fluid", name="fu_iron", amount=500},
         },
