@@ -52,7 +52,7 @@ utils.build_icons_subscripts = function(icons)
 			icon = icons.bottom_right,
 			icon_size = 64,
 			scale = 0.45,
-			shift = { -11, 11 },
+			shift = { 11, 11 },
 			draw_background = true,
 		}
 	end
