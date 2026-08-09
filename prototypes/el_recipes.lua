@@ -198,10 +198,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_kerosene.png')
+                icon = utils.sprite('fluids/el_kerosene.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_2.png')
+                icon = utils.sprite('icons/overlay_2.png')
             }
         }
     },
@@ -545,10 +545,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
+                icon = utils.sprite('fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_1.png')
+                icon = utils.sprite('icons/overlay_1.png')
             }
         } 
     },
@@ -574,10 +574,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
+                icon = utils.sprite('fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_2.png')
+                icon = utils.sprite('icons/overlay_2.png')
             }
         } 
     },
@@ -603,10 +603,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
+                icon = utils.sprite('fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_3.png')
+                icon = utils.sprite('icons/overlay_3.png')
             }
         } 
     },
@@ -631,10 +631,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
+                icon = utils.sprite('fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_4.png')
+                icon = utils.sprite('icons/overlay_4.png')
             }
         } 
     },
@@ -657,10 +657,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_1.png')
+                icon = utils.sprite('icons/overlay_1.png')
             }
         } 
     },
@@ -683,10 +683,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_2.png')
+                icon = utils.sprite('icons/overlay_2.png')
             }
         } 
     },
@@ -708,10 +708,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_3.png')
+                icon = utils.sprite('icons/overlay_3.png')
             }
         } 
     },
@@ -733,10 +733,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_4.png')
+                icon = utils.sprite('icons/overlay_4.png')
             }
         } 
     },
@@ -759,10 +759,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_1.png')
+                icon = utils.sprite('icons/overlay_1.png')
             }
         } 
     },
@@ -785,10 +785,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_2.png')
+                icon = utils.sprite('icons/overlay_2.png')
             }
         } 
     },
@@ -810,10 +810,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_3.png')
+                icon = utils.sprite('icons/overlay_3.png')
             }
         } 
     },
@@ -834,10 +834,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
+                icon = utils.sprite('fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_4.png')
+                icon = utils.sprite('icons/overlay_4.png')
             }
         } 
     },
@@ -882,10 +882,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
+                icon = utils.sprite('fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_1.png')
+                icon = utils.sprite('icons/overlay_1.png')
             }
         } 
     },
@@ -911,10 +911,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
+                icon = utils.sprite('fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_2.png')
+                icon = utils.sprite('icons/overlay_2.png')
             }
         } 
     },
@@ -940,10 +940,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
+                icon = utils.sprite('fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_3.png')
+                icon = utils.sprite('icons/overlay_3.png')
             }
         } 
     },
@@ -968,10 +968,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
+                icon = utils.sprite('fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_4.png')
+                icon = utils.sprite('icons/overlay_4.png')
             }
         } 
     },
@@ -1116,10 +1116,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_dirty_water.png')
+                icon = utils.sprite('fluids/el_dirty_water.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_stone.png')
+                icon = utils.sprite('icons/overlay_stone.png')
             }
         } 
     },
@@ -1144,10 +1144,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_dirty_water.png')
+                icon = utils.sprite('fluids/el_dirty_water.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_stone.png')
+                icon = utils.sprite('icons/overlay_stone.png')
             }
         }
         
@@ -1173,10 +1173,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_dirty_water.png')
+                icon = utils.sprite('fluids/el_dirty_water.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_iron.png')
+                icon = utils.sprite('icons/overlay_iron.png')
             }
         }
         
@@ -1202,10 +1202,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_dirty_water.png')
+                icon = utils.sprite('fluids/el_dirty_water.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_copper.png')
+                icon = utils.sprite('icons/overlay_copper.png')
             }
         } 
     },
@@ -1531,10 +1531,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = utils.sprite('/fluids/el_kerosene.png')
+                icon = utils.sprite('fluids/el_kerosene.png')
             },
             {
-                icon = utils.sprite('/icons/overlay_1.png')
+                icon = utils.sprite('icons/overlay_1.png')
             }
         } 
     },
