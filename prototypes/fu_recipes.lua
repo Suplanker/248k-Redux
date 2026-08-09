@@ -1,3 +1,5 @@
+local utils = require("utils")
+
 data:extend({
     --fusor
     {
@@ -196,10 +198,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('icons/overlay_1.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -224,10 +226,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('icons/overlay_2.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -252,10 +254,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('icons/overlay_3.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -279,10 +281,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('icons/overlay_4.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -1025,6 +1027,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/iron-plate.png',
+            top_left = utils.sprite('elements/fu_iron.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_iron", amount=500},
         },
@@ -1040,6 +1046,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/copper-plate.png',
+            top_left = utils.sprite('elements/fu_copper.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_copper", amount=500},
         },
@@ -1055,6 +1065,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/sulfur.png',
+            top_left = utils.sprite('elements/fu_sulfur.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_sulfur", amount=500},
         },
@@ -1070,6 +1084,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('electronic/el_lithium/el_lithium_item.png'),
+            top_left = utils.sprite('elements/fu_lithium_7.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_lithium_7", amount=500},
         },
@@ -1085,6 +1103,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/uranium-235.png',
+            top_left = utils.sprite('elements/fu_uranium_235.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_uranium_235", amount=500},
         },
@@ -1100,6 +1122,10 @@ data:extend({
         categories = {'crafting-with-fluid'},
         enabled = false,
         subgroup = 'fu_star_engine_subgroup_d',
+        icons = utils.build_icons_subscripts({
+            base = '__base__/graphics/icons/uranium-238.png',
+            top_left = utils.sprite('elements/fu_uranium_238.png')
+        }),
         ingredients = {
             {type="fluid", name="fu_uranium_238", amount=500},
         },
@@ -1668,7 +1694,7 @@ data:extend({
         type = 'recipe',
         localised_name = {"recipe-name.fu_burn_oxygen"},
         categories = {'fu_burner_category'},
-        icon = '__248k-Redux-graphics__/ressources/elements/fu_oxygen.png',
+        icon = utils.sprite('elements/fu_oxygen.png'),
         icon_size = 64,
         enabled = true,
         hidden = true,
@@ -1855,10 +1881,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('icons/overlay_1.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -1885,10 +1911,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('icons/overlay_2.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -1915,10 +1941,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('icons/overlay_3.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -1942,10 +1968,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/elements/fu_hydrogen.png"
+                icon = utils.sprite('elements/fu_hydrogen.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('icons/overlay_4.png')
             }
         },
         subgroup = 'fu_item_subgroup_e',
@@ -2035,6 +2061,10 @@ data:extend({
         categories = {'crafting'},
         main_product = 'fi_gold',
         allow_productivity = true,
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_materials/fi_materials_gold.png'),
+            top_left = utils.sprite('fusion/fu_materials/fu_materials_gold_ingot.png')
+        }),
         ingredients = {
             {type="item", name="fu_gold_ingot", amount=1},
         },
@@ -2074,6 +2104,10 @@ data:extend({
         categories = {'crafting'},
         main_product = 'fi_neodym',
         allow_productivity = true,
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_materials/fi_materials_neodym.png'),
+            top_left = utils.sprite('fusion/fu_materials/fu_materials_neodym_ingot.png')
+        }),
         ingredients = {
             {type="item", name="fu_neodym_ingot", amount=1},
         },
@@ -2113,6 +2147,10 @@ data:extend({
         categories = {'crafting'},
         main_product = 'fi_titan',
         allow_productivity = true,
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fission/fi_materials/fi_materials_titan.png'),
+            top_left = utils.sprite('fusion/fu_materials/fu_materials_titan_ingot.png')
+        }),
         ingredients = {
             {type="item", name="fu_titan_ingot", amount=1},
         },
@@ -2152,6 +2190,10 @@ data:extend({
         categories = {'crafting'},
         main_product = 'fu_lead',
         allow_productivity = true,
+        icons = utils.build_icons_subscripts({
+            base = utils.sprite('fusion/fu_lead/fu_lead_item.png'),
+            top_left = utils.sprite('fusion/fu_materials/fu_materials_lead_ingot.png')
+        }),
         ingredients = {
             {type="item", name="fu_lead_ingot", amount=1},
         },
@@ -2184,10 +2226,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_dirty_water.png"
+                icon = utils.sprite('fluids/el_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_slag.png"
+                icon = utils.sprite('icons/overlay_slag.png')
             }
         },
     },

@@ -1,6 +1,5 @@
-local function sprite(name)
-    return '__248k-Redux-graphics__/ressources/'..name
-end
+
+local utils = require("utils")
 
 --settings check
 --if config('recipe_enabled') then 
@@ -145,7 +144,7 @@ data:extend({
         localised_name = {"fluid-name.el_pressurized_water"},
         enabled = false,
         categories = {'el_special_fluid'},
-        icon = sprite('fluids/el_pressurized_water.png'),
+        icon = utils.sprite('fluids/el_pressurized_water.png'),
         icon_size = 64,
         main_product = 'el_pressurized_water',
         ingredients = {
@@ -199,10 +198,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_kerosene.png"
+                icon = utils.sprite('/fluids/el_kerosene.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('/icons/overlay_2.png')
             }
         }
     },
@@ -546,10 +545,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_memory_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('/icons/overlay_1.png')
             }
         } 
     },
@@ -575,10 +574,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_memory_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('/icons/overlay_2.png')
             }
         } 
     },
@@ -604,10 +603,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_memory_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('/icons/overlay_3.png')
             }
         } 
     },
@@ -632,10 +631,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_memory_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_memory_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('/icons/overlay_4.png')
             }
         } 
     },
@@ -658,10 +657,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fu_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('/icons/overlay_1.png')
             }
         } 
     },
@@ -684,10 +683,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fu_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('/icons/overlay_2.png')
             }
         } 
     },
@@ -709,10 +708,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fu_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('/icons/overlay_3.png')
             }
         } 
     },
@@ -734,10 +733,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fu_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fu_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('/icons/overlay_4.png')
             }
         } 
     },
@@ -760,10 +759,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('/icons/overlay_1.png')
             }
         } 
     },
@@ -786,10 +785,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('/icons/overlay_2.png')
             }
         } 
     },
@@ -811,10 +810,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('/icons/overlay_3.png')
             }
         } 
     },
@@ -835,10 +834,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/fi_ki_circuit_fluid.png"
+                icon = utils.sprite('/fluids/fi_ki_circuit_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('/icons/overlay_4.png')
             }
         } 
     },
@@ -883,10 +882,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_cpu_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('/icons/overlay_1.png')
             }
         } 
     },
@@ -912,10 +911,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_cpu_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_2.png"
+                icon = utils.sprite('/icons/overlay_2.png')
             }
         } 
     },
@@ -941,10 +940,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_cpu_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_3.png"
+                icon = utils.sprite('/icons/overlay_3.png')
             }
         } 
     },
@@ -969,10 +968,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_ki_cpu_fluid.png"
+                icon = utils.sprite('/fluids/el_ki_cpu_fluid.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_4.png"
+                icon = utils.sprite('/icons/overlay_4.png')
             }
         } 
     },
@@ -984,7 +983,7 @@ data:extend({
         localised_name = {"fluid-name.el_ki_cpu_fluid"},
         enabled = false,
         categories = {'el_ki_core_category'},
-        icon = sprite('fluids/el_pressurized_water.png'),
+        icon = utils.sprite('fluids/el_pressurized_water.png'),
         icon_size = 64,
         subgroup = 'el_item_subgroup_f',
         ingredients = {
@@ -1117,10 +1116,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_dirty_water.png"
+                icon = utils.sprite('/fluids/el_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_stone.png"
+                icon = utils.sprite('/icons/overlay_stone.png')
             }
         } 
     },
@@ -1145,10 +1144,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_dirty_water.png"
+                icon = utils.sprite('/fluids/el_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_stone.png"
+                icon = utils.sprite('/icons/overlay_stone.png')
             }
         }
         
@@ -1174,10 +1173,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_dirty_water.png"
+                icon = utils.sprite('/fluids/el_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_iron.png"
+                icon = utils.sprite('/icons/overlay_iron.png')
             }
         }
         
@@ -1203,10 +1202,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_dirty_water.png"
+                icon = utils.sprite('/fluids/el_dirty_water.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_copper.png"
+                icon = utils.sprite('/icons/overlay_copper.png')
             }
         } 
     },
@@ -1532,10 +1531,10 @@ data:extend({
         icon_size = 64,
         icons = {
             {
-                icon = "__248k-Redux-graphics__/ressources/fluids/el_kerosene.png"
+                icon = utils.sprite('/fluids/el_kerosene.png')
             },
             {
-                icon = "__248k-Redux-graphics__/ressources/icons/overlay_1.png"
+                icon = utils.sprite('/icons/overlay_1.png')
             }
         } 
     },
