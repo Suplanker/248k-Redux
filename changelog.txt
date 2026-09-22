@@ -1,8 +1,14 @@
 ---------------------------------------------------------------------------------------------------
-Version: 0.1.43
+Version: 0.1.44
 Date: 22.9.2026
   Changes:
     - Updated prototype definitions for Factorio 2.1 compatibility (migrated fuel_category to fuel_categories arrays and corrected main_product properties)
+---------------------------------------------------------------------------------------------------
+Version: 0.1.43
+Date: 29.8.2026
+  Features:
+    - Added a mod setting to allow ignoring the technology cost multiplier for the KI2/KI3 technologies.
+    - Added a clear error message when Krastorio 2 Spaced Out and 248k Redux "Overhaul Mode" are both enabled, with step-by-step instructions to resolve the conflict
 ---------------------------------------------------------------------------------------------------
 Version: 0.1.42
 Date: 1.8.2026

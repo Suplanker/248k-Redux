@@ -354,7 +354,7 @@ data:extend({
       ammo_type =
       {
         type = "projectile",
-        category = "electric",
+        categories = {"electric"},
         energy_consumption = "20MJ",
         action =
         {

@@ -17,7 +17,7 @@ data:extend({
         results = {
           {type="item", name="kr-lithium-chloride", amount = 10}
         },
-        category = "chemistry"
+        categories = {"chemistry"}
     },
     {
         name = 'fu_charger_hydrogen_oxygen',
@@ -293,7 +293,7 @@ data:extend({
         name = 'el_water_pressure',
         type = 'recipe',
         enabled = false,
-        category = 'el_special_fluid',
+        categories = {'el_special_fluid'},
         icon = '__248k-Redux-graphics__/ressources/fluids/el_pressurized_water.png',
         icon_size = 64,
         main_product = 'el_pressurized_water',

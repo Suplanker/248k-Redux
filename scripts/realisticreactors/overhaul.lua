@@ -318,7 +318,7 @@ data:extend({
         name = 'fi_use_tech_fuel_recipe',
         type = 'recipe',
         enabled = 'false',
-        category = 'fi_test_fuel_crafting_category',
+        categories = {'fi_test_fuel_crafting_category'},
         ingredients = {
             {'fi_test_fuel', 1}
         },

@@ -159,8 +159,15 @@ data:extend({
         default_value   = false,
         order           = 'i-d',
     },
-        {
+    {
         name            = 'kill-All-Other-Menu-Simulations',
+        type            = 'bool-setting',
+        setting_type    = 'startup',
+        default_value   = false,
+        order           = 'i-d',
+    },
+    {
+        name            = 'late_tech_ignore_cost_multiplier',
         type            = 'bool-setting',
         setting_type    = 'startup',
         default_value   = false,
