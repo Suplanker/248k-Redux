@@ -261,7 +261,7 @@ data:extend({
         icon_size = 64,
         stack_size = 20,
         subgroup = 'fi_item_subgroup_b',
-        fuel_category = 'fi_test_fuel',
+        fuel_categories = {'fi_test_fuel'},
         fuel_value = '50MJ',
         fuel_glow_color = {r=0.1,g=0.74,b=0.39,a=0.5},
         order = 'x-a',

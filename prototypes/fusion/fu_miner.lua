@@ -28,7 +28,7 @@ data:extend({
         stack_size = 20,
         subgroup = 'fi_item_subgroup_b',
         order = 'a-b',
-        fuel_category = 'fu_miner_fuel_category',
+        fuel_categories = {'fu_miner_fuel_categories'},
         fuel_value = '80MJ',
         weight = 5 * kg,
     },
@@ -64,7 +64,7 @@ data:extend({
         fuel_inventory_size = 1,
         effectivity = 1,
         emissions = {emissions_per_minute = 20},
-        fuel_categories = {"fu_miner_fuel_category"},
+        fuel_categories = {"fu_miner_fuel_categories"},
         smoke = {
             {
                 name = "smoke",

@@ -399,13 +399,13 @@ data:extend({
         type = 'recipe-category',
     },
     {
-        name = 'fu_miner_fuel_category',
+        name = 'fu_miner_fuel_categories',
         type = 'fuel-category',
     },
 --============================================================================================================================================================
 
 
-    --fuel_category
+    --fuel_categories
     {
         name = 'el_train_fuel',
         type = 'fuel-category',
