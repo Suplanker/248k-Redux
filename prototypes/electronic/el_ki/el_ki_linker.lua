@@ -19,9 +19,8 @@ data:extend({
     },
     {
         name = 'fi_ki_science',
-        type = 'tool',
+        type = 'item',
         icon = sprite('science_blue_data.png'),
-        durability = 1,
         icon_size = 64,
         stack_size = 10000,
         subgroup = 'fi_item_subgroup_k',
@@ -29,9 +28,8 @@ data:extend({
     },
     {
         name = 'fu_ki_science',
-        type = 'tool',
+        type = 'item',
         icon = sprite('science_red_data.png'),
-        durability = 1,
         icon_size = 64,
         stack_size = 10000,
         subgroup = 'fu_item_subgroup_k',

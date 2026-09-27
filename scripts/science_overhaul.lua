@@ -10,7 +10,6 @@ local function retexture_science(table_in)
     for i,v in ipairs(table_in) do
         log("==== " .. v[1] .. " ====")
         log(serpent.block(data.raw.item["automation-science-pack"]))
-        log(serpent.block(data.raw.tool[v[1]]))
         log(serpent.block(data.raw.technology[v[1]]))
         data.raw.item[v[1]].icon_size = 64
         data.raw.item[v[1]].icon = sprite(v[2])
@@ -46,7 +45,7 @@ if settings.startup['retexture_science'].value then
         retexture_science(retexture_table)
 
         data.raw.item["automation-science-pack"].icon = sprite("red_science")
-        data.raw.tool["fu_space_probe_science"].icon = sprite("exotic_science")
+        data.raw.item["fu_space_probe_science"].icon = sprite("exotic_science")
     end
 
 end --indent ignored

@@ -247,8 +247,7 @@ data:extend({
 
     {
         name = 'gr_red_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('red_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -258,8 +257,7 @@ data:extend({
     },
     {
         name = 'gr_green_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('green_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -269,8 +267,7 @@ data:extend({
     },
     {
         name = 'gr_blue_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('blue_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -280,8 +277,7 @@ data:extend({
     },
     {
         name = 'gr_purple_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('purple_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -291,8 +287,7 @@ data:extend({
     },
     {
         name = 'gr_yellow_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('yellow_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -302,8 +297,7 @@ data:extend({
     },
     {
         name = 'gr_grey_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('grey_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
@@ -313,8 +307,7 @@ data:extend({
     },
     {
         name = 'gr_white_pack',
-        type = 'tool',
-        durability = 1,
+        type = 'item',
         icon = sprite('white_pack_item.png'),
         icon_size = 64,
         stack_size = 10000,
