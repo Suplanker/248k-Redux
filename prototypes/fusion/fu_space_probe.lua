@@ -118,9 +118,8 @@ data:extend({
     --science
     {
         name = 'fu_space_probe_science',
-        type = 'tool',
+        type = 'item',
         icon = sprite('science_item.png'),
-        durability = 1,
         icon_size = 64,
         stack_size = 10000,
         subgroup = 'fu_item_subgroup_b',
@@ -131,7 +130,6 @@ data:extend({
         name = 'fu_space_probe_science_item_1',
         type = 'item',
         icon = sprite('science_item_1.png'),
-        durability = 1,
         icon_size = 64,
         stack_size = 10000,
         subgroup = 'fu_item_subgroup_b',

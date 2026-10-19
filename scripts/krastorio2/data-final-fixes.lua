@@ -397,4 +397,4 @@ if not mods["Krastorio2-spaced-out"] then
     table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fi_ki_science')
     table.insert(data.raw.lab['kr-advanced-lab'].inputs, 'fu_ki_science')
 end
-data.raw.tool["fu_space_probe_science"].icon = "__248k-Redux-graphics__/ressources/fusion/fu_space_probe/fu_space_probe_science_item_krastorio.png"
+data.raw.item["fu_space_probe_science"].icon = "__248k-Redux-graphics__/ressources/fusion/fu_space_probe/fu_space_probe_science_item_krastorio.png"
